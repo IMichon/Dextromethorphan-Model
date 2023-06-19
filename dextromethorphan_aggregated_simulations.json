@@ -62607,7 +62607,7 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "Gorski 2004 (96) PM, n=1",
+      "Individual": "Gorski 2004 PM, n=1",
       "Compounds": [
         {
           "Name": "Dextromethorphan",
