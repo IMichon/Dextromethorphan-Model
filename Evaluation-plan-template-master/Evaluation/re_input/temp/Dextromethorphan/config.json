@@ -1,0 +1,191 @@
+{
+  "Project": "Dextromethorphan",
+  "SnapshotFile": "C:\\Repositories\\Dextromethorphan-Model\\Evaluation-plan-template-master\\Evaluation\\input\\../../Dextromethorphan-model.json",
+  "OutputFolder": "C:/Repositories/Dextromethorphan-Model/Evaluation-plan-template-master/Evaluation/re_input",
+  "ObservedDataFolder": "C:/Repositories/Dextromethorphan-Model/Evaluation-plan-template-master/Evaluation/re_input\\ObservedData",
+  "InputsFolder": "C:/Repositories/Dextromethorphan-Model/Evaluation-plan-template-master/Evaluation/re_input\\Inputs",
+  "MappingFile": "C:/Repositories/Dextromethorphan-Model/Evaluation-plan-template-master/Evaluation/re_input\\temp\\Dextromethorphan\\mapping.json",
+  "TempFolder": "C:/Repositories/Dextromethorphan-Model/Evaluation-plan-template-master/Evaluation/re_input\\temp\\Dextromethorphan",
+  "ReportConfigurationFile": "C:/Repositories/Dextromethorphan-Model/Evaluation-plan-template-master/Evaluation/re_input\\report-configuration-plan.json",
+  "SimulationPlots": [
+    {
+      "Simulation": "Duedahl 2005 EM, 0.5 mg/kg dextromethorphan base (infusion), n=24",
+      "Project": "Dextromethorphan",
+      "SectionId": 321
+    },
+    {
+      "Simulation": "Schadel 1995 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=5",
+      "Project": "Dextromethorphan",
+      "SectionId": 321
+    },
+    {
+      "Simulation": "Schadel 1995 PM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=4",
+      "Project": "Dextromethorphan",
+      "SectionId": 321
+    },
+    {
+      "Simulation": "Tennezé 1999 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=36",
+      "Project": "Dextromethorphan",
+      "SectionId": 321
+    },
+    {
+      "Simulation": "Antecip Bioventures EM, 60 mg dextromethorphan hydrobromide multiple dose (capsule/solution), n=10",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Armani 2017 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=20",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Dumond 2010 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=23",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Edwards 2017 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=48",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Ermer 2015 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=30",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Feld 2013 EM, 60 mg dextromethorphan hydrobromide (capsule/solution), n=17",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Kakuda 2014 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=14",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Khalilieh 2018 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=20",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Nakashima 2007 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=24",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Nyunt 2008 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=12",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Sager 2014 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=10",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Stage 2018 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=12",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Qiu 2016 IM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=0.5",
+      "Project": "Dextromethorphan",
+      "SectionId": 321
+    },
+    {
+      "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=1.25",
+      "Project": "Dextromethorphan",
+      "SectionId": 321
+    },
+    {
+      "Simulation": "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+      "Project": "Dextromethorphan",
+      "SectionId": 321
+    },
+    {
+      "Simulation": "Zawertailo 2009 NM, 3 mg/kg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+      "Project": "Dextromethorphan",
+      "SectionId": 321
+    },
+    {
+      "Simulation": "Capon 1996 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Capon 1996 PM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Gazzaz 2018 NM, 30 mg dextromethorphan hydrobromide (cocktail), n=30, AS=1.25",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Gorski 2004 EM, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Gorski 2004 PM, 30 mg dextromethorphan hydromide (capsule/solution), n=1",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Yamazaki 2017 IM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=12, AS=0.5",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    },
+    {
+      "Simulation": "Yamazaki 2017 NM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=11, AS=2",
+      "Project": "Dextromethorphan",
+      "SectionId": 322
+    }
+  ],
+  "Inputs": [],
+  "BuildingBlocks": [],
+  "SimulationParameters": [],
+  "Simulations": [
+    "Duedahl 2005 EM, 0.5 mg/kg dextromethorphan base (infusion), n=24",
+    "Schadel 1995 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=5",
+    "Schadel 1995 PM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=4",
+    "Tennezé 1999 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=36",
+    "Antecip Bioventures EM, 60 mg dextromethorphan hydrobromide multiple dose (capsule/solution), n=10",
+    "Armani 2017 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=20",
+    "Dumond 2010 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=23",
+    "Edwards 2017 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=48",
+    "Ermer 2015 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=30",
+    "Feld 2013 EM, 60 mg dextromethorphan hydrobromide (capsule/solution), n=17",
+    "Kakuda 2014 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=14",
+    "Khalilieh 2018 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=20",
+    "Nakashima 2007 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=24",
+    "Nyunt 2008 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=12",
+    "Sager 2014 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=10",
+    "Stage 2018 EM, 30 mg dextromethorphan hydrobromide (cocktail), n=12",
+    "Qiu 2016 IM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=0.5",
+    "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=1.25",
+    "Qiu 2016 NM, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+    "Zawertailo 2009 NM, 3 mg/kg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+    "Capon 1996 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+    "Capon 1996 PM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6",
+    "Gazzaz 2018 NM, 30 mg dextromethorphan hydrobromide (cocktail), n=30, AS=1.25",
+    "Gorski 2004 EM, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
+    "Gorski 2004 PM, 30 mg dextromethorphan hydromide (capsule/solution), n=1",
+    "Storelli 2018 IM, 5 mg dextromethorphan base (capsule/solution), n=16",
+    "Storelli 2018 NM, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2",
+    "Yamazaki 2017 IM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=12, AS=0.5",
+    "Yamazaki 2017 NM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=11, AS=2"
+  ]
+}
