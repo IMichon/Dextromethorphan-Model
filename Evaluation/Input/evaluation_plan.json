@@ -581,14 +581,32 @@
     },
     "Inputs": [
         {
-            "Project": "S-Warfarin",
-            "Name": "S-Warfarin",
+            "Project": "Dextromethorphan",
+            "Name": "Dextromethorphan",
             "Type": "Compound",
             "SectionReference": "final-input-parameters"
         },
         {
-            "Project": "R-Warfarin",
-            "Name": "R-Warfarin",
+            "Project": "Dextromethorphan",
+            "Name": "capsule/solution",
+            "Type": "Formulation",
+            "SectionReference": "final-input-parameters"
+        },
+        {
+            "Project": "Dextromethorphan",
+            "Name": "cocktail capsule (weibull)",
+            "Type": "Formulation",
+            "SectionReference": "final-input-parameters"
+        },
+        {
+            "Project": "Dextromethorphan",
+            "Name": "Dextrorphan",
+            "Type": "Compound",
+            "SectionReference": "final-input-parameters"
+        },    
+        {
+            "Project": "Dextromethorphan",
+            "Name": "Dextrorphan-O-glucuronide",
             "Type": "Compound",
             "SectionReference": "final-input-parameters"
         }
