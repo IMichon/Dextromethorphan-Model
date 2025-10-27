@@ -9,7 +9,6 @@ This repository contains:
 - an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
 The current model dextramethorphan and metabolites model is based on the model developed by Rüdesheim et al 2022, for further details, please refer to [[1]](https://onlinelibrary.wiley.com/doi/10.1002/psp4.12776).
-(https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.12776). 
 The whole-body PBPK model of dextromethorphan and its metabolites dextrorphan and dextrorphan O-glucuronide has been developed and evaluated for the prediction of dextromethorphan, dextrorphan and dextrorphan O-glucuronide plasma concentrations after intravenous and oral administration over a wide dose range (5 to 80 mg).
 The PBPK model was developed to describe the effect of genetic variants in the CYP2D6 gene on the pharmacokinetics of dextromethorphan. 
 For this purpose, CYP2D6 k<sub>cat</sub> values were optimized for different CYP2D6 activity scores.
