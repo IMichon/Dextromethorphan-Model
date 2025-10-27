@@ -10,9 +10,9 @@ A literature search was performed to collect available information on physicoche
 | Solubility (pH)               | g/L      |   15.00    | [Benet 2011](#main-references)             | Aqueous Solubility Hydrobromide                 |
 | logP                          |          |   4.10     | [Spaggiairi 2014](#main-references)        | Partition coefficient between octanol and water |
 | fu                            | %        |   35.00    | [Lutz 2012](#main-references)              | Fraction unbound in plasma                      |
-| CYP2D6 K<sub>m</sub> -> dxt   | µmol/L   |   4.65     | [Brown 2007](#main-references)| Michealis Menten constant|
+| CYP2D6 K<sub>m</sub> -> dxt   | µmol/L   |   4.65     | [Brown 2007](#main-references)| Michaelis Menten constant|
 | CYP2D6 K<sub>cat</sub> -> dxt (PM) | 1/min |  0       | [Brown 2007](#main-references)              | Catalytic rate constant                        |
-| CYP3A4 K<sub>m</sub>          | µmol/L   |   176.80   | [Lutz 2012](#main-references)              | Michealis Menten constant                       |
+| CYP3A4 K<sub>m</sub>          | µmol/L   |   176.80   | [Lutz 2012](#main-references)              | Michaelis Menten constant                       |
   
 ### In vitro / physico-chemical Data Dextrorphan <a id="invitro-and-physico-chemical-data Dextrorphan"></a>
 
@@ -25,9 +25,9 @@ A literature search was performed to collect available information on physicoche
 | pK<sub>a</sub> strongest acidic|         |   10.10    | [Spaggiari 2014](#main-references)         | Acid dissociation constant                      |
 | logP                          |          |   2.90     | [Kim 2019](#main-references)               | Partition coefficient between octanol and water |
 | fu                            | %        |   42.00    | [Watanabe 2018](#main-references)          | Fraction unbound in plasma                      |
-| UGT2B15 K<sub>m</sub> -> dxt-glu   | µmol/L | 184.8   | [Lutz 2012](#main-references)              | Michealis Menten constant                       |
+| UGT2B15 K<sub>m</sub> -> dxt-glu   | µmol/L | 184.8   | [Lutz 2012](#main-references)              | Michaelis Menten constant                       |
 | CYP2D6 K<sub>cat</sub> -> dxt (PM) | 1/min    |  0    | [Brown 2007](#main-references)| Catalytic rate constant|
-| CYP3A4 K<sub>m</sub>          | µmol/L   |   910.00   | [Lutz 2012](#main-references)              | Michealis Menten constant                       |
+| CYP3A4 K<sub>m</sub>          | µmol/L   |   910.00   | [Lutz 2012](#main-references)              | Michaelis Menten constant                       |
 | CYP3A4 K<sub>cat</sub>        | 1/min    |  7.41      | [Lutz 2012](#main-references)| Catalytic rate constant|
 
 ### In vitro / physico-chemical Data Dextrorphan O-glucuronide <a id="invitro-and-physico-chemical-data Dextrorphan O-glucuronide"></a>

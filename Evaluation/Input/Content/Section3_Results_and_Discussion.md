@@ -4,7 +4,7 @@ The PBPK model for midazolam was developed and verified with clinical pharmacoki
 intravenous (0.5 mg/kg 30 min infusion ) 
 oral administrations (dose range 5 to 80 mg).
 
-The model quantifies metabolism of dextraomethorphan via mainly CYP2D6, and includes the possibility to include K<sub>cat</sub> activity scores for CYP2D6 to simulate different CYP2D6 phenotypes.
+The model quantifies metabolism of dextromethorphan via mainly CYP2D6, and includes the possibility to include K<sub>cat</sub> activity scores for CYP2D6 to simulate different CYP2D6 phenotypes.
 
 The next sections show:
 
