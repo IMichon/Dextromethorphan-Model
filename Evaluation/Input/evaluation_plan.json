@@ -1,0 +1,655 @@
+{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.4/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Dextromethorphan",
+            "Path": "../../Dextromethorphan-model.json",
+            "BuildingBlocks": [],
+            "SimulationParameters": []
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "AxesSettings": {
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "ng/ml",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "ng/ml",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "ComparisonTimeProfile": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "ng/ml",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "AllPlots": [
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Duedahl2005_EM_0.5mgkg_DexBase",
+                "SectionId": 321
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Schadel1995_EM_30mg_DexHBr",
+                "SectionId": 321
+            },
+             {
+                "Project": "Dextromethorphan",
+                "Simulation": "Schadel1995_PM_30mg_DexHBr",
+                "SectionId": 321
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Tennezé1999_EM_30mg_DexHBr",
+                "SectionId": 321
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "AntecipBioventures_EM_60mg_DexHBr_QD",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Armani2017_EM_30mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Dumond2010_EM_30mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Edwards2017_EM,_30mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Ermer2015_EM_30mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Feld2013_EM_60mg_DexHBr",
+                "SectionId": 322
+            },
+             {
+                "Project": "Dextromethorphan",
+                "Simulation": "Kakuda2014_EM_30mg_DexHBr",
+                "SectionId": 322
+            },
+             {
+                "Project": "Dextromethorphan",
+                "Simulation": "Khalilieh2018_EM_30mg_DexHBr",
+                "SectionId": 322
+            },
+             {
+                "Project": "Dextromethorphan",
+                "Simulation": "Nakashima2007_EM_30mg_DexHBr",
+                "SectionId": 322
+            },
+             {
+                "Project": "Dextromethorphan",
+                "Simulation": "Nyunt2008_EM_30mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Sager2014_EM_30mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Stage2018_EM_30mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
+                "SectionId": 321
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
+                "SectionId": 321
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
+                "SectionId": 321
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                "SectionId": 321
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Capon1996_EM_30mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Capon1996_PM_30mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Gazzaz2018_NM_30mg_DexHBr_AS=1.25",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Gorski2004_EM_30mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Gorski2004_PM_30mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Storelli2018_IM_5mg_DexHBr",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Yamazaki2017_IM_30mg_DexHBr_AS=0.5",
+                "SectionId": 322
+            },
+            {
+                "Project": "Dextromethorphan",
+                "Simulation": "Yamazaki2017_NM_30mg_DexHBr_AS=2",
+                "SectionId": 322
+            }
+        ],
+        "GOFMergedPlots": [
+            {
+                "Title": "Goodness of fit plot for Dextromethorphan concentration in plasma",
+                "SectionId": 32,
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotTypes": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                ],
+                "Groups": [
+                    {
+                        "Caption": "Dextromethorphan IV (Model building)",
+                        "Symbol": "Diamond",
+                        "OutputMappings": [
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Duedahl2005_EM_0.5mgkg_DexBase",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Duedahl2005_EM_0.5mgkg_DexBase",
+                                "Color": "#FF0000"
+                            }
+                             ]
+                    },
+                    {
+                        "Caption": "Dextromethorphan oral (Model building)",
+                        "Symbol": "Square",
+                        "OutputMappings": [
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Schadel1995_PM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Schadel1995_PM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Tennezé1999_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Tennezé1999_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Qiu2016_NM_15mg_DexHBr_AS=2",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "Color": "#FF0000"
+                            }
+                             ]
+                    },
+                    {
+                        "Caption": "Dextromethorphan oral (Model verification)",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "AntecipBioventures_EM_60mg_DexHBr_QD",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "AntecipBioventures_EM_60mg_DexHBr_QD",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Armani2017_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Armani2017_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Dumond2010_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Dumond2010_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Edwards2017_EM,_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Edwards2017_EM,_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Ermer2015_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ermer2015_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Feld2013_EM_60mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Feld2013_EM_60mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Kakuda2014_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kakuda2014_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Khalilieh2018_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Khalilieh2018_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Nakashima2007_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Nakashima2007_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Nyunt2008_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Nyunt2008_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Sager2014_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Sager2014_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Stage2018_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Stage2018_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Capon1996_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Capon1996_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Capon1996_PM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Capon1996_PM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Gazzaz2018_NM_30mg_DexHBr_AS=1.25",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gazzaz2018_NM_30mg_DexHBr_AS=1.25",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Gorski2004_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gorski2004_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Gorski2004_PM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gorski2004_PM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Storelli2018_IM_5mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Storelli2018_IM_5mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Storelli2018_NM_5mg_DexBase_AS=2",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Yamazaki2017_IM_30mg_DexHBr_AS=0.5",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Yamazaki2017_IM_30mg_DexHBr_AS=0.5",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Yamazaki2017_NM_30mg_DexHBr_AS=2",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Yamazaki2017_NM_30mg_DexHBr_AS=2",
+                                "Color": "#FF0000"
+                            }
+                         ]
+                     }
+                ]
+            },
+            {
+                "Title": "Goodness of fit plot for Dextromethorphan metabolites concentration in plasma",
+                "SectionId": 31,
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotTypes": [
+                    "predictedVsObserved",
+                    "residualsOverTime"
+                ],
+                "Groups": [
+                     {
+                        "Caption": "Dextrorphan (Model building)",
+                        "Symbol": "Square",
+                        "OutputMappings": [
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Schadel1995_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Schadel1995_EM_30mg_DexHBr-dextrorphan",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "Color": "#FF0000"
+                            }
+                             ]
+                    },
+                    {
+                        "Caption": "Dextrorphan (Model verification)",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Ermer2015_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ermer2015_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Nakashima2007_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Nakashima2007_EM_30mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Storelli2018_IM_5mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Storelli2018_IM_5mg_DexHBr",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Storelli2018_NM_5mg_DexBase_AS=2-dextrorphan",
+                                "Color": "#FF0000"
+                            }
+                         ]
+                     },
+                     {
+                        "Caption": "Dextrorphan O-glucuronide (Model building)",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Schadel1995_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan-O-glucuronide|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Schadel1995_EM_30mg_DexHBr_dextrorphan_O-glu",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Dextrorphan total (Model development)",
+                        "Symbol": "Cross",
+                        "OutputMappings": [
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Tennezé1999_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Tennezé1999_EM_30mg_DexHBr-dextrorphan-total",
+                                "Color": "#FF0000"
+                            }
+                           ]
+                        },
+                    {
+                        "Caption": "Dextrorphan total (Model verification)",
+                        "Symbol": "Asterisk",
+                        "OutputMappings": [
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "AntecipBioventures_EM_60mg_DexHBr_QD",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Feld2013_EM_60mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Feld2013_EM_60mg_DexHBr-dextrorphan-total",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Gorski2004_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gorski2004_EM_30mg_DexHBr-dextrorphan-total",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+        "Sections": [
+        {
+            "Id": 1,
+            "Title": "Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "Methods",
+            "Content": "Content/Section2_Methods.md",
+            "Sections": [
+                {
+                    "Id": 21,
+                    "Content": "Content/Section2.1_Modeling_Strategy.md",
+                    "Title": "Modeling strategy"
+                },
+                {
+                    "Id": 22,
+                    "Content": "Content/Section2.2_Data.md",
+                    "Title": "Data and parameters used"
+                },
+                {
+                    "Id": 23,
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
+                    "Title": "Model Model Parameters and Assumptions"
+                }
+            ]
+        },
+         {
+            "Id": 3,
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Title": "Results and Discussion",
+            "Sections": [
+                {
+                    "Id": 31,
+                    "Content": "Content/GOF_diagnostics.md",
+                    "Title": "Dextromethorphan Diagnostics Plots"
+                },
+                {
+                    "Id": 32,
+                    "Title": "Concentration-Time Profiles",
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Sections": [
+                        {
+                            "Id": 321,
+                            "Title": "Model Building",
+                            "Content": "Content/Concentration_time_profiles_building.md"
+                        },
+                        {
+                            "Id": 322,
+                            "Title": "Model Verification",
+                            "Content": "Content/Concentration_time_profiles_verification.md"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": 4,
+            "Content": "Content/Section4_Conclusion.md",
+            "Title": "Conclusion"
+        },
+        {
+            "Id": 5,
+            "Content": "Content/References.md",
+            "Title": "References"
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ]
+}
