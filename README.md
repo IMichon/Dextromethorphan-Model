@@ -1,10 +1,10 @@
 # Dextromethophan-Model
-Physiologically-Based Pharmacokinetic (PBPK) Modeling of Dextromethorphan and its metabolites in adults with different CYP2D6 phenotypes.
+Physiologically-Based Pharmacokinetic (PBPK) Modeling of Dextromethorphan and its metabolites (dextrorphan and dextrorphan O-glucuronide) in adults with different CYP2D6 phenotypes.
 
 ## Repository Files 
 This repository contains:
 
-- a PK-Sim snapshot (*.json) file of the current whole-body PBPK model of dextramethorphan
+- a PK-Sim snapshot (*.json) file of the current whole-body PBPK model of dextramethorphan, dextrorphan and dextrorphan O-glucuronide
 - static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
 - an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
@@ -24,4 +24,5 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
 ## Reference
+
 [1] Rüdesheim S, Selzer D, Fuhr U, Schwab M, Lehr T. Physiologically-based pharmacokinetic modeling of dextromethorphan to investigate interindividual variability within CYP2D6 activity score groups. *CPT Pharmacometrics Syst Pharmacol.* 2022;00:1- 18.](https://onlinelibrary.wiley.com/doi/10.1002/psp4.12776)
