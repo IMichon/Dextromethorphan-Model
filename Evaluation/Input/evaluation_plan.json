@@ -645,6 +645,11 @@
             "Title": "Results and Discussion",
             "Sections": [
                 {
+                    "Reference": "final-input-parameters",
+                    "Title": "Final input parameters",
+                    "Content": "Content/Input_table.md"
+                },
+                {
                     "Id": 31,
                     "Content": "Content/GOF_diagnostics.md",
                     "Title": "Dextromethorphan Diagnostics Plots"
