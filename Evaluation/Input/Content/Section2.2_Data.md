@@ -8,7 +8,7 @@ A literature search was performed to collect available information on physicoche
 | MW                            | g/mol    |   271.41   | [Benet 2011](#main-references)             | Molecular weight                                |
 | pK<sub>a</sub>                |          |   9.10     | [Spaggiari 2014](#main-references)         | Acid dissociation constant                      |
 | Solubility (pH)               | g/L      |   15.00    | [Benet 2011](#main-references)             | Aqueous Solubility Hydrobromide                 |
-| logP                          |          |   4.10     | [Spaggiairi 2014](#main-references)        | Partition coefficient between octanol and water |
+| logP                          |          |   4.10     | [Spaggiari 2014](#main-references)        | Partition coefficient between octanol and water |
 | fu                            | %        |   35.00    | [Lutz 2012](#main-references)              | Fraction unbound in plasma                      |
 | CYP2D6 K<sub>m</sub> -> dxt   | µmol/L   |   4.65     | [Brown 2007](#main-references)| Michaelis Menten constant|
 | CYP2D6 K<sub>cat</sub> -> dxt (PM) | 1/min |  0       | [Brown 2007](#main-references)              | Catalytic rate constant                        |
