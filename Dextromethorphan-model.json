@@ -580,7 +580,8 @@
       "ExpressionProfiles": [
         "CYP3A4|Human|Healthy",
         "CYP2D6|Human|Healthy",
-        "lysosomal trapping mucosa|Human|Healthy"
+        "lysosomal trapping mucosa|Human|Healthy",
+        "UGT2B15|Human|Healthy"
       ]
     },
     {
@@ -1258,6 +1259,16 @@
                 "Method": "InVitro",
                 "Description": "Brown 2007"
               }
+            },
+            {
+              "Name": "kcat",
+              "Value": 7.98,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
+              }
             }
           ]
         },
@@ -1779,7 +1790,8 @@
               "Unit": "1/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification"
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
               }
             }
           ]
@@ -2493,7 +2505,7 @@
           "Name": "dextrorphan-total mass"
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2521,6 +2533,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Capon1996_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 9
+              }
+            },
             {
               "Name": "Capon 1996 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6-Dextromethorphan-Peripheral Venous Blood-Plasma-ng/mL",
               "X": "Capon1996_EM_30mg_DexHBr|h",
@@ -2661,7 +2682,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2689,6 +2710,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Capon1996_PM_30mg_DexHBr-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Capon1996_PM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3
+              }
+            },
             {
               "Name": "Capon 1996 PM, dextromethorphan, 30 mg dextromethorphan hydrobromide (capsule/solution), n=6-Dextromethorphan-Peripheral Venous Blood-Plasma-ng/mL",
               "X": "Capon1996_PM_30mg_DexHBr|h",
@@ -2833,7 +2863,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -2861,6 +2891,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Duedahl2005_EM_0.5mgkg_DexBase|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6
+              }
+            },
             {
               "Name": "Duedahl2005, 0.5mgkg Dex base (inf), n=24-Dextromethorphan-Peripheral Venous Blood-Plasma-ng/mL",
               "X": "Duedahl2005_EM_0.5mgkg_DexBase|h",
@@ -3004,7 +3043,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3032,6 +3071,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Gorski2004_PM_30mg_DexHBr-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Gorski2004_PM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3
+              }
+            },
             {
               "Name": "Gorski 2004 PM, dextromethorphan, 30 mg dextromethorphan hydromide (capsule/solution), n=1-Dextromethorphan-Peripheral Venous Blood-Plasma-ng/mL",
               "X": "Gorski2004_PM_30mg_DexHBr|h",
@@ -3182,7 +3230,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3210,6 +3258,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Qiu2016_NM_15mg_DexHBr_AS=2-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Qiu2016_NM_15mg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
             {
               "Name": "Qiu 2016 NM, dextromethorphan, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Qiu2016_NM_15mg_DexHBr_AS=2|[h]",
@@ -3357,7 +3414,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3385,6 +3442,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Qiu2016_IM_15mg_DexHBR_AS=0.5-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Qiu2016_IM_15mg_DexHBR_AS=0.5|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
             {
               "Name": "Qiu 2016 IM, dextromethorphan, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=0.5-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Qiu2016_IM_15mg_DexHBR_AS=0.5|[h]",
@@ -3550,7 +3616,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3578,6 +3644,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Qiu2016_NM_15mg_DexHBr_AS=1.25-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Qiu2016_NM_15mg_DexHBr_AS=1.25|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
             {
               "Name": "Qiu 2016 NM, dextromethorphan, 15 mg dextromethorphan hydrobromide (capsule/solution), n=6, AS=1.25-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Qiu2016_NM_15mg_DexHBr_AS=1.25|[h]",
@@ -3763,7 +3838,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3791,6 +3866,24 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Storelli2018_NM_5mg_DexBase_AS=2-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Storelli2018_NM_5mg_DexBase_AS=2|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Storelli2018_NM_5mg_DexBase_AS=2-Dextrorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Storelli2018_NM_5mg_DexBase_AS=2|Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            },
             {
               "Name": "Storelli 2018 NM, dextromethorphan, 5 mg dextromethorphan base (capsule/solution), n=17, AS=2-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Storelli2018_NM_5mg_DexBase_AS=2|[h]",
@@ -3952,7 +4045,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -3980,6 +4073,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Edwards2017_EM,_30mg_DexHBr-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Edwards2017_EM,_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3
+              }
+            },
             {
               "Name": "Edwards 2017 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (capsule/solution), n=48-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Edwards2017_EM,_30mg_DexHBr|[h]",
@@ -4012,237 +4114,6 @@
           },
           "Title": "Edwards 2017 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=48",
           "OriginText": "Dextromethorphan-model\nEdwards2017_EM,_30mg_DexHBr\n2025-10-14 10:48"
-        }
-      ]
-    },
-    {
-      "Name": "Feld2013_EM_60mg_DexHBr",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Feld2013_EM_60mg_DexHBr",
-        "Feld2013_EM_60mg_DexHBr-dextrorphan-total"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 48.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 20.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Events|dextromethorphan hydrobromide 60 mg peroral s.d.|capsule/solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dextrorphan-O-glucuronide|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Feld2013_EM_60mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Feld2013_EM_60mg_DexHBr"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Feld2013_EM_60mg_DexHBr|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Feld2013_EM_60mg_DexHBr-dextrorphan-total"
-        }
-      ],
-      "Individual": "Feld 2013 NM, n=17 clean",
-      "Compounds": [
-        {
-          "Name": "Dextromethorphan",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Berezhkovskiy",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Brown 2007 (sink)",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "CYP2D6-Lutz 2012 (dextrorphan)",
-              "MoleculeName": "CYP2D6",
-              "MetaboliteName": "Dextrorphan"
-            },
-            {
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "Glomerular Filtration-Assumption",
-              "SystemicProcessType": "GFR"
-            },
-            {
-              "Name": "lysosomal trapping mucosa-lysosomal trapping (Kazmi 2013)",
-              "MoleculeName": "lysosomal trapping mucosa"
-            }
-          ],
-          "Protocol": {
-            "Name": "dextromethorphan hydrobromide 60 mg peroral s.d.",
-            "Formulations": [
-              {
-                "Name": "capsule/solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Dextrorphan",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Berezhkovskiy",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Lutz 2012 (sink)",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "CYP2D6"
-            },
-            {
-              "Name": "Glomerular Filtration-Assumption",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "Dextrorphan-O-glucuronide",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Berezhkovskiy",
-            "Cellular permeability - Charge dependent Schmitt"
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-Assumption",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        }
-      ],
-      "ObserverSets": [
-        {
-          "Name": "dextrorphan-total mass"
-        }
-      ],
-      "HasResults": false,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Feld 2013 EM, dextromethorphan, 60 mg dextromethorphan hydrobromide (capsule/solution), n=17-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
-              "X": "Feld2013_EM_60mg_DexHBr|[h]",
-              "Y": "Feld2013_EM_60mg_DexHBr|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|[ng/mL]",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Feld 2013 EM, dextrorphan-total, 60 mg dextromethorphan hydrobromide (capsule/solution), n=17-Dextrorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
-              "X": "Feld2013_EM_60mg_DexHBr-dextrorphan-total|[h]",
-              "Y": "Feld2013_EM_60mg_DexHBr-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]",
-              "CurveOptions": {
-                "Color": "#008000",
-                "LegendIndex": 10,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Feld 2013 EM, 60 mg dextromethorphan hydrobromide (capsule/solution), n=17",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "Title": "Feld 2013 EM, 60 mg dextromethorphan hydrobromide (capsule/solution), n=17",
-          "OriginText": "Dextromethorphan-model\nFeld2013_EM_60mg_DexHBr\n2025-10-14 10:48"
         }
       ]
     },
@@ -4396,7 +4267,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -4425,6 +4296,15 @@
           ],
           "Curves": [
             {
+              "Name": "Nakashima2007_EM_30mg_DexHBr-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Nakashima2007_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3
+              }
+            },
+            {
               "Name": "Nakashima 2007 EM, dextrorphan, 30 mg dextrorphan hydrobromide (capsule/solution), n=24-Dextrorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Nakashima2007_EM_30mg_DexHBr_dextrorphan|[h]",
               "Y": "Nakashima2007_EM_30mg_DexHBr_dextrorphan|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]",
@@ -4444,6 +4324,15 @@
                 "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Nakashima2007_EM_30mg_DexHBr-Dextrorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Nakashima2007_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
               }
             }
           ],
@@ -4663,7 +4552,7 @@
           "Name": "dextrorphan-total mass"
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -4691,6 +4580,24 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextrorphan-Peripheral Venous Blood-Dextrorphan-total Plasma (Peripheral Venous Blood)-Concentration",
+              "X": "Time",
+              "Y": "Tennezé1999_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 10
+              }
+            },
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Tennezé1999_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 7
+              }
+            },
             {
               "Name": "Tennezé 1999 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (capsule/solution), n=36-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Tennezé1999_EM_30mg_DexHBr|[h]",
@@ -4867,7 +4774,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -4895,6 +4802,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Yamazaki2017_NM_30mg_DexHBr_AS=2-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Yamazaki2017_NM_30mg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
             {
               "Name": "Yamazaki 2017 NM, dextromethorphan, 30 mg dextromethorphan hydrobromide (capsule/solution), n=11, AS=2-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Yamazaki2017_NM_30mg_DexHBr_AS=2|[h]",
@@ -5045,7 +4961,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5073,6 +4989,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Yamazaki2017_IM_30mg_DexHBr_AS=0.5-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Yamazaki2017_IM_30mg_DexHBr_AS=0.5|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3
+              }
+            },
             {
               "Name": "Yamazaki 2017 IM, dextromethorphan, 30 mg dextromethorphan hydrobromide (capsule/solution), n=12, AS=0.5-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Yamazaki2017_IM_30mg_DexHBr_AS=0.5|[h]",
@@ -5216,7 +5141,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5244,6 +5169,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Nyunt2008_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
             {
               "Name": "Nyunt 2008 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (cocktail), n=12-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Nyunt2008_EM_30mg_DexHBr|[h]",
@@ -5394,7 +5328,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5422,6 +5356,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Schadel1995_PM_30mg_DexHBr-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Schadel1995_PM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3
+              }
+            },
             {
               "Name": "Schadel 1995 PM, dextromethorphan, 30 mg dextromethorphan hydrobromide (capsule/solutio",
               "X": "Schadel1995_PM_30mg_DexHBr|h",
@@ -5607,7 +5550,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5636,6 +5579,15 @@
           ],
           "Curves": [
             {
+              "Name": "Storelli2018_IM_5mg_DexHBr-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Storelli2018_IM_5mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
               "Name": "Storelli 2018 IM, dextrorphan, 5 mg dextromethorphan base (capsule/solution), n=16-Dextrorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Storelli2018_IM_5mg_DexHBr-dextrorphan|[h]",
               "Y": "Storelli2018_IM_5mg_DexHBr-dextrorphan|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]",
@@ -5644,6 +5596,15 @@
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Storelli2018_IM_5mg_DexHBr-Dextrorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Storelli2018_IM_5mg_DexHBr|Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3
               }
             },
             {
@@ -5852,7 +5813,7 @@
           "Name": "dextrorphan-total mass"
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -5881,6 +5842,15 @@
           ],
           "Curves": [
             {
+              "Name": "Dextrorphan-O-glucuronide-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Schadel1995_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextrorphan-O-glucuronide|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4
+              }
+            },
+            {
               "Name": "Schadel 1995 EM, dextrorphan, 30 mg dextromethorphan hydrobromide (capsule/solution), n=5-Dextrorphan-Peripheral Venous Blood-Plasma-ng/mL",
               "X": "Schadel1995_EM_30mg_DexHBr-dextrorphan|h",
               "Y": "Schadel1995_EM_30mg_DexHBr-dextrorphan|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|ng/mL",
@@ -5889,6 +5859,15 @@
                 "LegendIndex": 1,
                 "LineStyle": "None",
                 "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dextrorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Schadel1995_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3
               }
             },
             {
@@ -6166,7 +6145,7 @@
           "Name": "dextrorphan-total mass"
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -6195,6 +6174,15 @@
           ],
           "Curves": [
             {
+              "Name": "AntecipBioventures_EM_60mg_DexHBr_QD-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "AntecipBioventures_EM_60mg_DexHBr_QD|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
               "Name": "Antecip Bioventures EM, dextrorphan total, 60 mg dextromethorphan hydrobromide multiple dose (capsule/solution), n=10-Dextrorphan-total-Peripheral Venous Blood-Plasma-Conc  ",
               "X": "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total|Time  ",
               "Y": "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan-total|Conc  ",
@@ -6203,6 +6191,15 @@
                 "LegendIndex": 9,
                 "LineStyle": "None",
                 "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dextrorphan-Peripheral Venous Blood-Dextrorphan-total Plasma (Peripheral Venous Blood)-Concentration",
+              "X": "Time",
+              "Y": "AntecipBioventures_EM_60mg_DexHBr_QD|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 8
               }
             },
             {
@@ -6410,7 +6407,7 @@
           "Name": "dextrorphan-total mass"
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -6438,6 +6435,33 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dextrorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Dextrorphan-Peripheral Venous Blood-Dextrorphan-total Plasma (Peripheral Venous Blood)-Concentration",
+              "X": "Time",
+              "Y": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3
+              }
+            },
             {
               "Name": "Zawertailo 2009 NM, dextrorphan total, 3 mg/kg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2-Dextrorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total|[h]",
@@ -6654,7 +6678,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -6682,6 +6706,24 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Sager2014_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dextrorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Sager2014_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            },
             {
               "Name": "Sager 2014 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (cocktail), n=10-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Sager2014_EM_30mg_DexHBr|[h]",
@@ -6881,7 +6923,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -6909,6 +6951,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Stage2018_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
             {
               "Name": "Stage 2018 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (cocktail), n=12-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Stage2018_EM_30mg_DexHBr|[h]",
@@ -7097,7 +7148,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -7129,6 +7180,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Armani2017_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
             {
               "Name": "Armani 2017 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (cocktail), n=20-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Armani2017_EM_30mg_DexHBr|[h]",
@@ -7317,7 +7377,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -7345,6 +7405,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Dumond2010_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
             {
               "Name": "Dumond 2010 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (cocktail), n=23-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Dumond2010_EM_30mg_DexHBr|[h]",
@@ -7552,7 +7621,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -7580,6 +7649,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kakuda2014_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
             {
               "Name": "Kakuda 2014 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (cocktail), n=14-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Kakuda2014_EM_30mg_DexHBr|[h]",
@@ -7758,7 +7836,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -7790,6 +7868,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Khalilieh2018_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
             {
               "Name": "Khalilieh 2018 EM, dextromethorphan, 30 mg dextromethorphan hydrobromide (cocktail), n=20-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Khalilieh2018_EM_30mg_DexHBr|[h]",
@@ -7978,7 +8065,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -8006,6 +8093,15 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Gazzaz2018_NM_30mg_DexHBr_AS=1.25|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
             {
               "Name": "Gazzaz 2018 NM, dextromethorphan, 30 mg dextromethorphan hydrobromide (cocktail), n=30, AS=1.25-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Gazzaz2018_NM_30mg_DexHBr_AS=1.25|[h]",
@@ -8200,7 +8296,7 @@
           ]
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -8228,6 +8324,24 @@
             }
           ],
           "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Ermer2015_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dextrorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Ermer2015_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            },
             {
               "Name": "Ermer 2015 EM, dextrorphan, 30 mg dextromethorphan hydrobromide (cocktail), n=30-Dextrorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
               "X": "Ermer2015_EM_30mg_DexHBr_dextrorphan|[h]",
@@ -8445,7 +8559,7 @@
           "Name": "dextrorphan-total mass"
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "IndividualAnalyses": [
         {
           "Axes": [
@@ -8474,6 +8588,15 @@
           ],
           "Curves": [
             {
+              "Name": "Gorski2004_EM_30mg_DexHBr-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Gorski2004_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3
+              }
+            },
+            {
               "Name": "Gorski 2004 EM, dextromethorphan, 30 mg dextromethorphan hydromide (capsule/solution), n=11-Dextromethorphan-Peripheral Venous Blood-Plasma-ng/mL",
               "X": "Gorski2004_EM_30mg_DexHBr|h",
               "Y": "Gorski2004_EM_30mg_DexHBr|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|ng/mL",
@@ -8482,6 +8605,15 @@
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dextrorphan-Peripheral Venous Blood-Dextrorphan-total Plasma (Peripheral Venous Blood)-Concentration",
+              "X": "Time",
+              "Y": "Gorski2004_EM_30mg_DexHBr|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 5
               }
             },
             {
@@ -8516,6 +8648,260 @@
           },
           "Title": "Gorski 2004 EM, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
           "OriginText": "Dextromethorphan-model\nGorski2004_EM_30mg_DexHBr\n2025-10-14 11:23"
+        }
+      ]
+    },
+    {
+      "Name": "Feld2013_EM_60mg_DexHBr",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Feld2013_EM_60mg_DexHBr",
+        "Feld2013_EM_60mg_DexHBr-dextrorphan-total"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Events|dextromethorphan hydrobromide 60 mg peroral s.d.|capsule/solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dextrorphan-O-glucuronide|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Feld 2013 NM, n=17 clean",
+      "Compounds": [
+        {
+          "Name": "Dextromethorphan",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Brown 2007 (sink)",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "CYP2D6-Lutz 2012 (dextrorphan)",
+              "MoleculeName": "CYP2D6",
+              "MetaboliteName": "Dextrorphan"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "lysosomal trapping mucosa-lysosomal trapping (Kazmi 2013)",
+              "MoleculeName": "lysosomal trapping mucosa"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            }
+          ],
+          "Protocol": {
+            "Name": "dextromethorphan hydrobromide 60 mg peroral s.d.",
+            "Formulations": [
+              {
+                "Name": "capsule/solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dextrorphan",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Lutz 2012 (sink)",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "CYP2D6"
+            },
+            {
+              "Name": "UGT2B15-Lutz 2012 (Dextrorphan-O-glucuronide)",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "Dextrorphan-O-glucuronide"
+            },
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Dextrorphan-O-glucuronide",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Berezhkovskiy",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-Assumption",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "dextrorphan-total mass"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Feld2013_EM_60mg_DexHBr|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dextrorphan-Peripheral Venous Blood-Dextrorphan-total Plasma (Peripheral Venous Blood)-Concentration",
+              "X": "Time",
+              "Y": "Feld2013_EM_60mg_DexHBr|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 8
+              }
+            },
+            {
+              "Name": "Feld 2013 EM, dextromethorphan, 60 mg dextromethorphan hydrobromide (capsule/solution), n=17-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
+              "X": "Feld2013_EM_60mg_DexHBr|[h]",
+              "Y": "Feld2013_EM_60mg_DexHBr|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|[ng/mL]",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Feld 2013 EM, dextrorphan-total, 60 mg dextromethorphan hydrobromide (capsule/solution), n=17-Dextrorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
+              "X": "Feld2013_EM_60mg_DexHBr-dextrorphan-total|[h]",
+              "Y": "Feld2013_EM_60mg_DexHBr-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Feld 2013 EM, 60 mg dextromethorphan hydrobromide (capsule/solution), n=17",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Feld 2013 EM, 60 mg dextromethorphan hydrobromide (capsule/solution), n=17",
+          "OriginText": "Dextromethorphan-model\nFeld2013_EM_60mg_DexHBr\n2025-10-29 11:48"
         }
       ]
     }
@@ -12731,14 +13117,15 @@
           "Name": "PO - capsule/solution",
           "Classifiables": [
             "Edwards2017_EM,_30mg_DexHBr",
-            "Feld2013_EM_60mg_DexHBr",
             "Nakashima2007_EM_30mg_DexHBr",
-            "AntecipBioventures_EM_60mg_DexHBr_QD"
+            "AntecipBioventures_EM_60mg_DexHBr_QD",
+            "Feld2013_EM_60mg_DexHBr"
           ]
         },
         {
           "Name": "PO - cocktail capsule",
           "Classifiables": [
+            "Nyunt2008_EM_30mg_DexHBr",
             "Sager2014_EM_30mg_DexHBr",
             "Stage2018_EM_30mg_DexHBr",
             "Armani2017_EM_30mg_DexHBr",
@@ -12776,7 +13163,6 @@
             "Storelli2018_NM_5mg_DexBase_AS=2",
             "Yamazaki2017_NM_30mg_DexHBr_AS=2",
             "Yamazaki2017_IM_30mg_DexHBr_AS=0.5",
-            "Nyunt2008_EM_30mg_DexHBr",
             "Storelli2018_IM_5mg_DexHBr",
             "Gorski2004_EM_30mg_DexHBr"
           ]
