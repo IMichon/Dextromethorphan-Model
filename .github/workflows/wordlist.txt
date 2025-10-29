@@ -23,3 +23,7 @@ Panobinostat
 Dextrorphan
 dextromethorphan
 dextrorphan
+dxt
+tmax
+DGI
+hydrobromide
