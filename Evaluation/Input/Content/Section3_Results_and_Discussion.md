@@ -1,4 +1,4 @@
-The PBPK model for Dextromethorphan, dextrophan and dextrorphan O-glucuronide was developed and verified with clinical pharmacokinetic data.
+The PBPK model for Dextromethorphan, dextrorphan and dextrorphan O-glucuronide was developed and verified with clinical pharmacokinetic data.
 
 The PBPK model for midazolam was developed and verified with clinical pharmacokinetic data. The model was built and evaluated covering data from studies including in particular 
 intravenous (0.5 mg/kg 30 min infusion ) 
