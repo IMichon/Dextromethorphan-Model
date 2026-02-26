@@ -35,7 +35,7 @@ Because the CYP2D6 gene is prone to genetic alterations, dextromethorphan pharma
 | 2.00            |           | 242.5             | 100 |
 | 3.00            | UM        | 413.2             | 170 |
 
-In addition, fraction of bile that was continuously released was assumed 1 (`EHC continuous fraction`) for Dextramethorphan and its metabolites.
+In addition, fraction of bile that was continuously released was assumed 1 (`EHC continuous fraction`) for Dextromethorphan and its metabolites.
 
 ### Automated Parameter Identification <a id="parameter-identification"></a>
 | Model Parameter               |  Optimized Value | Unit |
