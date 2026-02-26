@@ -89,7 +89,7 @@
             },
             {
                 "Project": "Dextromethorphan",
-                "Simulation": "Tennezé1999_EM_30mg_DexHBr",
+                "Simulation": "Tennezé1999_EM_80mg_DexHBr",
                 "SectionId": 321
             },
             {
@@ -199,7 +199,7 @@
             },
             {
                 "Project": "Dextromethorphan",
-                "Simulation": "Storelli2018_IM_5mg_DexHBr",
+                "Simulation": "Storelli2018_IM_5mg_DexBase",
                 "SectionId": 322
             },
             {
@@ -221,7 +221,7 @@
         "GOFMergedPlots": [
             {
                 "Title": "Goodness of fit plot for Dextromethorphan concentration in plasma",
-                "SectionId": 32,
+                "SectionId": 31,
                 "Artifacts": [
                     "Plot",
                     "GMFE",
@@ -247,7 +247,7 @@
                     },
                     {
                         "Caption": "Dextromethorphan oral (Model building)",
-                        "Symbol": "Square",
+                        "Symbol": "Asterisk",
                         "OutputMappings": [
                             {
                                 "Project": "Dextromethorphan",
@@ -258,37 +258,9 @@
                             },
                             {
                                 "Project": "Dextromethorphan",
-                                "Simulation": "Tennezé1999_EM_30mg_DexHBr",
+                                "Simulation": "Tennezé1999_EM_80mg_DexHBr",
                                 "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Tennezé1999_EM_30mg_DexHBr",
-                                "Color": "#FF0000"
-                            },
-                            {
-                                "Project": "Dextromethorphan",
-                                "Simulation": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
-                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
-                                "Color": "#FF0000"
-                            },
-                            {
-                                "Project": "Dextromethorphan",
-                                "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
-                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
-                                "Color": "#FF0000"
-                            },
-                            {
-                                "Project": "Dextromethorphan",
-                                "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
-                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Qiu2016_NM_15mg_DexHBr_AS=2",
-                                "Color": "#FF0000"
-                            },
-                            {
-                                "Project": "Dextromethorphan",
-                                "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
-                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "ObservedData": "Tennezé1999_EM_80mg_DexHBr",
                                 "Color": "#FF0000"
                             }
                              ]
@@ -380,7 +352,47 @@
                                 "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Stage2018_EM_30mg_DexHBr",
                                 "Color": "#FF0000"
+                            }
+                         ]
+                     },
+                     {
+                        "Caption": "Dextromethorphan oral DGI (Model building)",
+                        "Symbol": "Square",
+                        "OutputMappings": [
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
+                                "Color": "#FF0000"
                             },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Qiu2016_NM_15mg_DexHBr_AS=2",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "Color": "#FF0000"
+                            }
+                             ]
+                    },
+                    {
+                        "Caption": "Dextromethorphan oral DGI (Model verification)",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
                             {
                                 "Project": "Dextromethorphan",
                                 "Simulation": "Capon1996_EM_30mg_DexHBr",
@@ -418,9 +430,9 @@
                             },
                             {
                                 "Project": "Dextromethorphan",
-                                "Simulation": "Storelli2018_IM_5mg_DexHBr",
+                                "Simulation": "Storelli2018_IM_5mg_DexBase",
                                 "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Storelli2018_IM_5mg_DexHBr",
+                                "ObservedData": "Storelli2018_IM_5mg_DexBase",
                                 "Color": "#FF0000"
                             },
                             {
@@ -471,7 +483,13 @@
                                 "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Schadel1995_EM_30mg_DexHBr-dextrorphan",
                                 "Color": "#FF0000"
-                            },
+                            }
+                             ]
+                    },
+                    {
+                        "Caption": "Dextrorphan DGI(Model building)",
+                        "Symbol": "Asterisk",
+                        "OutputMappings": [
                             {
                                 "Project": "Dextromethorphan",
                                 "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
@@ -501,16 +519,9 @@
                             },
                             {
                                 "Project": "Dextromethorphan",
-                                "Simulation": "Storelli2018_IM_5mg_DexHBr",
+                                "Simulation": "Sager2014_EM_30mg_DexHBr",
                                 "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Storelli2018_IM_5mg_DexHBr",
-                                "Color": "#FF0000"
-                            },
-                            {
-                                "Project": "Dextromethorphan",
-                                "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
-                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Storelli2018_NM_5mg_DexBase_AS=2-dextrorphan",
+                                "ObservedData": "Sager2014_EM_30mg_DexHBr-dextrorphan",
                                 "Color": "#FF0000"
                             }
                          ]
@@ -530,13 +541,13 @@
                     },
                     {
                         "Caption": "Dextrorphan total (Model development)",
-                        "Symbol": "Cross",
+                        "Symbol": "Star",
                         "OutputMappings": [
                             {
                                 "Project": "Dextromethorphan",
-                                "Simulation": "Tennezé1999_EM_30mg_DexHBr",
+                                "Simulation": "Tennezé1999_EM_80mg_DexHBr",
                                 "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Tennezé1999_EM_30mg_DexHBr-dextrorphan-total",
+                                "ObservedData": "Tennezé1999_EM_80mg_DexHBr-dextrorphan-total",
                                 "Color": "#FF0000"
                             }
                            ]
@@ -558,19 +569,51 @@
                                 "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Feld2013_EM_60mg_DexHBr-dextrorphan-total",
                                 "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Dextrorphan DGI (Model verification)",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Storelli2018_IM_5mg_DexBase",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Storelli2018_IM_5mg_DexBase",
+                                "Color": "#FF0000"
                             },
                             {
                                 "Project": "Dextromethorphan",
-                                "Simulation": "Gorski2004_EM_30mg_DexHBr",
-                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Gorski2004_EM_30mg_DexHBr-dextrorphan-total",
+                                "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Storelli2018_NM_5mg_DexBase_AS=2-dextrorphan",
                                 "Color": "#FF0000"
-                            },
+                            }
+                         ]
+                     },
+                     {
+                        "Caption": "Dextrorphan total DGI (Model development)",
+                        "Symbol": "Cross",
+                        "OutputMappings": [
                             {
                                 "Project": "Dextromethorphan",
                                 "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
                                 "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total",
+                                "Color": "#FF0000"
+                            }
+                           ]
+                        },
+                    {
+                        "Caption": "Dextrorphan total DGI (Model verification)",
+                        "Symbol": "Asterisk",
+                        "OutputMappings": [
+                            {
+                                "Project": "Dextromethorphan",
+                                "Simulation": "Gorski2004_EM_30mg_DexHBr",
+                                "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gorski2004_EM_30mg_DexHBr-dextrorphan-total",
                                 "Color": "#FF0000"
                             }
                         ]
@@ -652,7 +695,7 @@
                 {
                     "Id": 31,
                     "Content": "Content/GOF_diagnostics.md",
-                    "Title": "Dextromethorphan Diagnostics Plots"
+                    "Title": "Dextromethorphan and its metabolites Diagnostics Plots"
                 },
                 {
                     "Id": 32,
