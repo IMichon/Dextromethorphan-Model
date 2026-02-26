@@ -40,7 +40,7 @@ In addition, fraction of bile that was continuously released was assumed 1 (`EHC
 ### Automated Parameter Identification <a id="parameter-identification"></a>
 | Model Parameter               |  Optimized Value | Unit |
 | --------------- | ------|---- | 
-| **Dextramethorphan** | || 
+| **Dextromethorphan** | || 
 | Weibull time parameter    |    46.05    | min  |
 | Weibull shape parameter    | 1.05      | |
 | Intestinal permeability    |    2.48E-6    | cm/min  |
