@@ -37,7 +37,7 @@ A literature search was performed to collect available information on physicoche
 | **Parameter**| **Unit** | **Value** | **Source** | **Description**|
 | :-----------------------------| -------- | ---------- | ------------------------------------------ | ----------------------------------------------- |
 | MW                            | g/mol    |   433.5    | [Wishart 2018](#main-references)| Molecular weight|
-| logP                          |          |   1.38     | [HMDB-b](`#main-references`), [Wishart 2018](`#main-references`) | Partition coefficient between octanol and water |
+| logP                          |          |   1.38     | [HMDB-b](#main-references), [Wishart 2018](#main-references) | Partition coefficient between octanol and water |
 | pK<sub>a</sub> strongest basic|          |   9.82     | [Wishart 2018](#main-references)           | Acid dissociation constant                      |
 | pK<sub>a</sub> strongest acidic|         |   2.85     | [Wishart 2018](#main-references)           | Acid dissociation constant                      |
 | Solubility                    | g/L      |   1.20     | [Wishart 2018](#main-references)           | Solubility|
