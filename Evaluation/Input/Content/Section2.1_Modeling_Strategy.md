@@ -11,9 +11,7 @@ Unknown parameters (see below) were identified using the Parameter Identificatio
 
 Once the appropriate structural model was identified, additional parameters for tablet formulations were identified. 
 
-The model was then verified by simulating:
-
-- ...
+The model was verified by simulating further clinical studies reporting pharmacokinetic concentration-time profiles after oral administration of dextromethorphan (verification datasets).
 
 Details about input data (physicochemical, *in vitro* and clinical) can be found in  [Section 2.2](#methods-data).
 

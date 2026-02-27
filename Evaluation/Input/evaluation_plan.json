@@ -487,7 +487,7 @@
                              ]
                     },
                     {
-                        "Caption": "Dextrorphan DGI(Model building)",
+                        "Caption": "Dextrorphan DGI (Model building)",
                         "Symbol": "Asterisk",
                         "OutputMappings": [
                             {
@@ -678,7 +678,7 @@
                 {
                     "Id": 23,
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
-                    "Title": "Model Model Parameters and Assumptions"
+                    "Title": "Model Parameters and Assumptions"
                 }
             ]
         },

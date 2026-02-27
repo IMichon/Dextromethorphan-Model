@@ -8,7 +8,7 @@ for the binding process - dissociation rate constant (k<sub>off</sub>) and disso
 
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
-After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed Dextromethorphan and dextrorphan clinical data was best described by choosing the partition coefficient calculation by `Berezhkovskiy` and cellular permeability calculation by `PK-Sim Standard`. For the dextrorphan O-clinical clinical data was best described by choosing the partition coefficient calculation by `Berezhkovskiy` and cellular permeability calculation by `Charge dependent Schmitt`.
+After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed Dextromethorphan and dextrorphan clinical data was best described by choosing the partition coefficient calculation by `Berezhkovskiy` and cellular permeability calculation by `PK-Sim Standard`. For the Dextrorphan-O-glucuronide clinical data was best described by choosing the partition coefficient calculation by `Berezhkovskiy` and cellular permeability calculation by `Charge dependent Schmitt`.
 
 ### Metabolism and Elimination <a id="model-parameters-and-assumptions-metabolism-and-elimination"></a>
 
@@ -21,7 +21,7 @@ Alternatively, dextromethorphan is N-demethylated by CYP3A4, which was found to 
 
 The principal pathway of dextromethorphan metabolism is the CYP2D6-mediated O-demethylation, leading to the formation of dextrorphan. This pathway was implemented using Michaelis-Menten kinetics. Cytochrome P450 2D6 (CYP2D6) was implemented in accordance with literature, using the PK-Sim® expression database to define their relative expression in the different organs of the body [PK-Sim Ontogeny Database Version 7.3](#main-references). The CYP2D6, CYP3A4 and UGT2B15 expression profiles are based on high-sensitive real-time RT-PCR [Nishimura 2013](#main-references). The t1/2 for CYP3A4 was decreased from the default 37h to 36h and the reference concentration for UGT2B15 was increased from 1 µmol/L to 2.48 µmol/L for a better fit of the clinical data.
 
-Because the CYP2D6 gene is prone to genetic alterations, dextromethorphan pharmacokinetics is subject to considerable drug-gene interaction (DGI) effects. For DGI modeling, the CYP2D6 Michaelis-Menten constant(K<sub>M</sub>) values for the dextromethorphan O-demethylation were kept constant over the whole range of modeled activity scores [Rüdesheim 2020](#main-references). CYP2D6 k<sub>cat</sub> values were optimized separately for each activity score. CYP2D6 poor metabolizers (PMs) (activity score = 0) were assumed to show no CYP2D6 activity (0%), whereas populations with two wildtype alleles (activity score = 2) were assumed to possess normal CYP2D6 activity (100%). Activity scores were assigned according to Caudle et al. 2017 [Caudle 2017](#main-references), see also table below. IM = intermediate metabolizers, NM = normal metabolizers and UM = ultra rapid metabolizer.
+Because the CYP2D6 gene is prone to genetic alterations, dextromethorphan pharmacokinetics is subject to considerable drug-gene interaction (DGI) effects. For DGI modeling, the CYP2D6 Michaelis-Menten constant(K<sub>M</sub>) values for the dextromethorphan O-demethylation were kept constant over the whole range of modeled activity scores [Rüdesheim 2020](#main-references). CYP2D6 k<sub>cat</sub> values were optimized separately for each activity score. CYP2D6 poor metabolizers (PMs) (activity score = 0) were assumed to show no CYP2D6 activity (0%), whereas populations with two wildtype alleles (activity score = 2) were assumed to possess normal CYP2D6 activity (100%). Activity scores were assigned according to Caudle et al. 2017 [Caudle 2017](#main-references), see also table below. IM = intermediate metabolizers, NM = normal metabolizers and UM = ultra-rapid metabolizer.
 
 
 | Activity Score | Projected | k<sub>cat</sub> -> dxt (1/min)    | k<sub>cat</sub> percentage of Reference (AS = 2) (%)|
@@ -38,18 +38,18 @@ Because the CYP2D6 gene is prone to genetic alterations, dextromethorphan pharma
 In addition, fraction of bile that was continuously released was assumed 1 (`EHC continuous fraction`) for Dextromethorphan and its metabolites.
 
 ### Automated Parameter Identification <a id="parameter-identification"></a>
-| Model Parameter               |  Optimized Value | Unit |
-| --------------- | ------|---- | 
-| **Dextromethorphan** | || 
-| Weibull time parameter    |    46.05    | min  |
-| Weibull shape parameter    | 1.05      | |
-| Intestinal permeability    |    2.48E-6    | cm/min  |
-| CYP2D6 K<sub>cat</sub> -> dxt (EM) | 90.89    | 1/min  |  
-| CYP3A4 K<sub>cat</sub>        | 7.94    |    1/min    | 
-| Lysosomal trapping K<sub>D</sub>  | 74.21     | µmol/L
-| Lysosomal trapping k<sub>off</sub> | 7.10e5  | 1/min  |
-| **Dextrorphan** | ||
-| UGT2B15 K<sub>cat</sub> -> dxt (EM) | 1137.98    | 1/min  |  
-| **Dextrorphan-O-glucuronide** | ||
-| logP | 0.29    |   |  
-| GFR fraction | 4.92    |   |  
+| Model Parameter               | 
+| --------------- | 
+| **Dextromethorphan** | 
+| Weibull time parameter    |   
+| Weibull shape parameter    | 
+| Intestinal permeability    |    
+| CYP2D6 K<sub>cat</sub> -> dxt (EM) | 
+| CYP3A4 K<sub>cat</sub>        | 
+| Lysosomal trapping K<sub>D</sub>  | 
+| Lysosomal trapping k<sub>off</sub> | 
+| **Dextrorphan** |
+| UGT2B15 K<sub>cat</sub> -> dxt (EM) |  
+| **Dextrorphan-O-glucuronide** |
+| logP |
+| GFR fraction |

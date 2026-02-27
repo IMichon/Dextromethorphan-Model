@@ -6,13 +6,12 @@ This repository contains:
 
 - a PK-Sim snapshot (*.json) file of the current whole-body PBPK model of dextromethorphan, dextrorphan and dextrorphan O-glucuronide
 - static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
-- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
+- an evaluation plan (evaluation_plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
 The current model of dextromethorphan and its metabolites is based on the model developed by Rüdesheim et al 2022, for further details, please refer to [[1]](https://onlinelibrary.wiley.com/doi/10.1002/psp4.12776).
 The whole-body PBPK model of dextromethorphan and its metabolites dextrorphan and dextrorphan O-glucuronide has been developed and evaluated for the prediction of dextromethorphan, dextrorphan and dextrorphan O-glucuronide plasma concentrations after intravenous and oral administration over a wide dose range (5 to 80 mg).
 The PBPK model was developed to describe the effect of genetic variants in the CYP2D6 gene on the pharmacokinetics of dextromethorphan. 
 For this purpose, CYP2D6 k<sub>cat</sub> values were optimized for different CYP2D6 activity scores.
-
 
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
@@ -25,5 +24,6 @@ The model code is distributed under the [GPLv2 License](https://github.com/Open-
 
 ## Reference
 
-[1] Rüdesheim S, Selzer D, Fuhr U, Schwab M, Lehr T. Physiologically-based pharmacokinetic modeling of dextromethorphan to investigate interindividual variability within CYP2D6 activity score groups. *CPT Pharmacometrics Syst Pharmacol.* 2022;00:1- 18.](https://onlinelibrary.wiley.com/doi/10.1002/psp4.12776)
+[1] Rüdesheim S, Selzer D, Fuhr U, Schwab M, Lehr T. Physiologically-based pharmacokinetic modeling of dextromethorphan to investigate interindividual variability within CYP2D6 activity score groups. *CPT Pharmacometrics Syst Pharmacol.* 2022;00:1-18. [https://onlinelibrary.wiley.com/doi/10.1002/psp4.12776](https://onlinelibrary.wiley.com/doi/10.1002/psp4.12776)
+
 

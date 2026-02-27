@@ -29,7 +29,7 @@
 
 **HMDB-a** Human Metabolome Database: Showing metabocard for Dextrorphan (HMDB0060552)
 
-**HMDB-b**Human Metabolome Database: Showing metabocard for Dextrorphan O-glucuronide (HMDB0010341)
+**HMDB-b** Human Metabolome Database: Showing metabocard for Dextrorphan O-glucuronide (HMDB0010341)
 
 **Kakuda 2014** Kakuda TN, Van Solingen-Ristea RM, Onkelinx J, et al. The effect of single- and multiple-dose etravirine on a drug cocktail of representative cytochrome P450 probes and digoxin in healthy subjects. J Clin Pharmacol. 2014;54(4):422-431. doi:10.1002/jcph.214
 
@@ -39,7 +39,7 @@
 
 **Kim 2019** Kim S, Chen J, Cheng T, et al. PubChem 2019 update: improved access to chemical data. Nucleic Acids Res. 2019;47(D1):D1102-D1109. doi:10.1093/nar/gky1033
 
-**Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531. doi: 10.1002/psp4.12134. Epub 2016 Oct 19. 	
+**Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model. CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531. doi: 10.1002/psp4.12134. Epub 2016 Oct 19. 	
 
 **Lutz 2012** Lutz JD, Isoherranen N. Prediction of relative in vivo metabolite exposure from in vitro data using two model drugs: dextromethorphan and omeprazole. Drug Metab Dispos. 2012;40(1):159-168. doi:10.1124/dmd.111.042200
 

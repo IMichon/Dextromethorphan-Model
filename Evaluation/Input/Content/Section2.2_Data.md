@@ -18,7 +18,6 @@ A literature search was performed to collect available information on physicoche
 
 A literature search was performed to collect available information on physicochemical properties of Dextrorphan. The obtained information from literature is summarized in the table below and is used for model building. 
 
-
 | **Parameter**| **Unit** | **Value** | **Source** | **Description**|
 | :-----------------------------| -------- | ---------- | ------------------------------------------ | ----------------------------------------------- |
 | MW                            | g/mol    |   257.37   | [HMDB-a](#main-references),[Wishart 2018](#main-references)           | Molecular weight                                |
@@ -35,7 +34,6 @@ A literature search was performed to collect available information on physicoche
 
 A literature search was performed to collect available information on physicochemical properties of Dextrorphan O-glucuronide. The obtained information from literature is summarized in the table below and is used for model building. 
 
-
 | **Parameter**| **Unit** | **Value** | **Source** | **Description**|
 | :-----------------------------| -------- | ---------- | ------------------------------------------ | ----------------------------------------------- |
 | MW                            | g/mol    |   433.5    | [Wishart 2018](#main-references)| Molecular weight|
@@ -49,21 +47,21 @@ A literature search was performed to collect available information on physicoche
 
 A literature search was performed to collect available clinical data on Dextromethorphan in healthy adults.
 
-#### Base Model Building <a id="base model-building"></a>
+#### Base Model Building <a id="base-model-building"></a>
 
 The following studies were used for model building (training data):
 
-**Publication** | **Study description**|
+| **Publication** | **Study description**|
 | :-------------------------- | :----------------------- |
 | [Duedahl 2005](#main-references) | CYP2D6 EM Subjects with an single IV infusion of 0.5 mg/kg for 30 min  |
 | [Schadel 1995](#main-references) | CYP2D6 EM and PM Subjects with a single PO dose of 30 mg |
 | [Tennezé 1990](#main-references) | CYP2D6 EM subjects with a single PO dose of 80 mg | 
 
-#### Base Model Verification <a id="base model-verification"></a>
+#### Base Model Verification <a id="base-model-verification"></a>
 
 The following studies were used for model verification:
 
-**Publication** | **Study description**|
+| **Publication** | **Study description**|
 | :-------------------------- | :----------------------- |
 | [Feld 2013](#main-references) | CYP2D6 EM subjects with a single PO dose of 60 mg   |
 | [AntecipBioventuresLLC](#main-references)| CYP2D6 EM subjects with twice daily PO doses of 60 mg bid|
@@ -82,14 +80,15 @@ The following studies were used for model verification:
 
 The following studies were used for model building (training data):
 
-**Publication** | **Study description**|
+| **Publication** | **Study description**|
 | :-------------------------- | :----------------------- |
 | [Qiu 2016](`#main-references`) | CYP2D6 NM and IM Subjects with a single PO dose of 15 mg |
 
 #### DGI Model Verification <a id="dgi-model-verification"></a>
 
 The following studies were used for model verification:
-**Publication** | **Study description**|
+
+| **Publication** | **Study description**|
 | :-------------------------- | :----------------------- |
 | [Capon 1996](#main-references) | CYP2D6 EM and PM subjects with a single PO dose of 30 mg   |
 | [Gazzaz 2018](#main-references)| CYP2D6 NM subjects with a single PO dose of 30 mg sd|
