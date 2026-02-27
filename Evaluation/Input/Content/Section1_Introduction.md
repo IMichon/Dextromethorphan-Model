@@ -25,5 +25,5 @@ Secondary metabolite Dextrorphan-O-glucuronide:
 - passive glomerular filtration 
 - active secretion to urine
 
-The presented Dextromethrophan PBPK model as well as the respective evaluation plan and evaluation report are provided open-source ([https://github.com/Open-Systems-Pharmacology/Dextromethorphan-Model](https://github.com/Open-Systems-Pharmacology/Dextromethorphan-Model)).
+The presented Dextromethorphan PBPK model as well as the respective evaluation plan and evaluation report are provided open-source ([https://github.com/Open-Systems-Pharmacology/Dextromethorphan-Model](https://github.com/Open-Systems-Pharmacology/Dextromethorphan-Model)).
 
