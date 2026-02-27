@@ -1,5 +1,5 @@
 
-### In vitro / physico-chemical Data Dextromethorphan <a id="invitro-and-physico-chemical-data Dextromethorphan"></a>
+### In vitro / physico-chemical Data Dextromethorphan <a id="invitro-and-physico-chemical-data-dextromethorphan"></a>
 
 A literature search was performed to collect available information on physicochemical properties of dextromethorphan. The obtained information from literature is summarized in the table below and is used for model building. 
 
