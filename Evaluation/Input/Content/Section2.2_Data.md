@@ -78,15 +78,15 @@ The following studies were used for model verification:
 | [Sager 2014](#main-references)| CYP2D6 EM subjects with a single PO dose of 30 mg sd|
 | [Stage 2018](#main-references)| CYP2D6 EM subjects with a single PO dose of 30 mg sd|
 
-#### DGI Model Building <a id="base model-building"></a>
+#### DGI Model Building <a id="dgi-model-building"></a>
 
 The following studies were used for model building (training data):
 
 **Publication** | **Study description**|
 | :-------------------------- | :----------------------- |
-| [Qiu 2016](#main-references) | CYP2D6 NM and IM Subjects with a single PO dose of 15 mg |
+| [Qiu 2016](`#main-references`) | CYP2D6 NM and IM Subjects with a single PO dose of 15 mg |
 
-#### DGI Model Verification <a id="base model-verification"></a>
+#### DGI Model Verification <a id="dgi-model-verification"></a>
 
 The following studies were used for model verification:
 **Publication** | **Study description**|
