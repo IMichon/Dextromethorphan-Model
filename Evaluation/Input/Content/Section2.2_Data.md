@@ -14,14 +14,14 @@ A literature search was performed to collect available information on physicoche
 | CYP2D6 K<sub>cat</sub> -> dxt (PM) | 1/min |  0       | [Brown 2007](#main-references)              | Catalytic rate constant                        |
 | CYP3A4 K<sub>m</sub>          | µmol/L   |   176.80   | [Lutz 2012](#main-references)              | Michaelis Menten constant                       |
   
-### In vitro / physico-chemical Data Dextrorphan <a id="invitro-and-physico-chemical-data Dextrorphan"></a>
+### In vitro / physico-chemical Data Dextrorphan <a id="invitro-and-physico-chemical-data-dextrorphan"></a>
 
 A literature search was performed to collect available information on physicochemical properties of Dextrorphan. The obtained information from literature is summarized in the table below and is used for model building. 
 
 | **Parameter**| **Unit** | **Value** | **Source** | **Description**|
 | :-----------------------------| -------- | ---------- | ------------------------------------------ | ----------------------------------------------- |
 | MW                            | g/mol    |   257.37   | [HMDB-a](#main-references),[Wishart 2018](#main-references)           | Molecular weight                                |
-| logP|          |  1.38    | [Spaggiari 2014](#main-references)         | Acid dissociation constant                      |
+| logP|          |  1.38    | [Spaggiari 2014](#main-references)         | Partition coefficient between octanol and water|
 | pK<sub>a</sub> strongest acidic|         |   10.10    | [Spaggiari 2014](#main-references)         | Acid dissociation constant                      |
 | logP                          |          |   2.90     | [Kim 2019](#main-references)               | Partition coefficient between octanol and water |
 | fu                            | %        |   42.00    | [Watanabe 2018](#main-references)          | Fraction unbound in plasma                      |
@@ -30,7 +30,7 @@ A literature search was performed to collect available information on physicoche
 | CYP3A4 K<sub>m</sub>          | µmol/L   |   910.00   | [Lutz 2012](#main-references)              | Michaelis Menten constant                       |
 | CYP3A4 K<sub>cat</sub>        | 1/min    |  7.41      | [Lutz 2012](#main-references)| Catalytic rate constant|
 
-### In vitro / physico-chemical Data Dextrorphan O-glucuronide <a id="invitro-and-physico-chemical-data Dextrorphan O-glucuronide"></a>
+### In vitro / physico-chemical Data Dextrorphan O-glucuronide <a id="invitro-and-physico-chemical-data-dextrorphan-o-glucuronide"></a>
 
 A literature search was performed to collect available information on physicochemical properties of Dextrorphan O-glucuronide. The obtained information from literature is summarized in the table below and is used for model building. 
 
