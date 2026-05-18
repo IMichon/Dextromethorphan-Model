@@ -694,11 +694,13 @@
                 },
                 {
                     "Id": 31,
+                    "Reference": "diagnostics-plots",
                     "Content": "Content/GOF_diagnostics.md",
                     "Title": "Dextromethorphan and its metabolites Diagnostics Plots"
                 },
                 {
                     "Id": 32,
+                    "Reference": "ct-profiles",
                     "Title": "Concentration-Time Profiles",
                     "Content": "Content/Concentration_time_profiles.md",
                     "Sections": [
