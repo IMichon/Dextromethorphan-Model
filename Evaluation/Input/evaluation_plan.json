@@ -657,12 +657,14 @@
         "Sections": [
         {
             "Id": 1,
+            "Reference": "introduction",
             "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
             "Id": 2,
             "Title": "Methods",
+            "Reference": "methods",
             "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
