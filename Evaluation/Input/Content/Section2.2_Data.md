@@ -16,7 +16,7 @@ A literature search was performed to collect available information on physicoche
   
 ### In vitro / physico-chemical Data Dextrorphan <a id="invitro-and-physico-chemical-data-dextrorphan"></a>
 
-A literature search was performed to collect available information on physicochemical properties of Dextrorphan. The obtained information from literature is summarized in the table below and is used for model building. 
+A literature search was performed to collect available information on physicochemical properties of dextrorphan. The obtained information from literature is summarized in the table below and is used for model building. 
 
 | **Parameter**| **Unit** | **Value** | **Source** | **Description**|
 | :-----------------------------| -------- | ---------- | ------------------------------------------ | ----------------------------------------------- |
@@ -30,9 +30,9 @@ A literature search was performed to collect available information on physicoche
 | CYP3A4 K<sub>m</sub>          | µmol/L   |   910.00   | [Lutz 2012](#main-references)              | Michaelis Menten constant                       |
 | CYP3A4 K<sub>cat</sub>        | 1/min    |  7.41      | [Lutz 2012](#main-references)| Catalytic rate constant|
 
-### In vitro / physico-chemical Data Dextrorphan O-glucuronide <a id="invitro-and-physico-chemical-data-dextrorphan-o-glucuronide"></a>
+### In vitro / physico-chemical Data Dextrorphan-O-glucuronide <a id="invitro-and-physico-chemical-data-dextrorphan-o-glucuronide"></a>
 
-A literature search was performed to collect available information on physicochemical properties of Dextrorphan O-glucuronide. The obtained information from literature is summarized in the table below and is used for model building. 
+A literature search was performed to collect available information on physicochemical properties of dextrorphan-O-glucuronide. The obtained information from literature is summarized in the table below and is used for model building. 
 
 | **Parameter**| **Unit** | **Value** | **Source** | **Description**|
 | :-----------------------------| -------- | ---------- | ------------------------------------------ | ----------------------------------------------- |
@@ -45,7 +45,7 @@ A literature search was performed to collect available information on physicoche
 
 ### Clinical Data  <a id="clinical-data"></a>
 
-A literature search was performed to collect available clinical data on Dextromethorphan in healthy adults.
+A literature search was performed to collect available clinical data on dextromethorphan in healthy adults.
 
 #### Base Model Building <a id="base-model-building"></a>
 

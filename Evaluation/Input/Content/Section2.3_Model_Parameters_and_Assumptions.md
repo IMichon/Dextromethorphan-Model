@@ -8,7 +8,7 @@ for the binding process - dissociation rate constant (k<sub>off</sub>) and disso
 
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
-After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed Dextromethorphan and dextrorphan clinical data was best described by choosing the partition coefficient calculation by `Berezhkovskiy` and cellular permeability calculation by `PK-Sim Standard`. For the Dextrorphan-O-glucuronide clinical data was best described by choosing the partition coefficient calculation by `Berezhkovskiy` and cellular permeability calculation by `Charge dependent Schmitt`.
+After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed dextromethorphan and dextrorphan clinical data was best described by choosing the partition coefficient calculation by `Berezhkovskiy` and cellular permeability calculation by `PK-Sim Standard`. For the dextrorphan-O-glucuronide clinical data was best described by choosing the partition coefficient calculation by `Berezhkovskiy` and cellular permeability calculation by `Charge dependent Schmitt`.
 
 ### Metabolism and Elimination <a id="model-parameters-and-assumptions-metabolism-and-elimination"></a>
 
@@ -17,7 +17,7 @@ Dextromethorphan-O-demethylation via CYP2D6 leads to the formation of the major 
 **Figure** **1: Implemented dextromethorphan metabolic pathways.**
 ![Figure 1](images/Figure_1.PNG)
 
-Alternatively, dextromethorphan is N-demethylated by CYP3A4, which was found to be the main pathway of dextromethorphan metabolism in CYP2D6 PMs. Depending on the CYP2D6 phenotype, up to 50% of orally administered dextromethorphan is excreted unchanged in urine. For dextromethorphan and Dextrorphan, a GFR fraction of 1 was assumed. Dextrorphan O-glucuronide is renally eliminated via passive glomerular filtration and active secretion to the urine, a GFR fraction > 1 was optimized and represents both processes [Section 2.3.4](#parameter-identification).
+Alternatively, dextromethorphan is N-demethylated by CYP3A4, which was found to be the main pathway of dextromethorphan metabolism in CYP2D6 PMs. Depending on the CYP2D6 phenotype, up to 50% of orally administered dextromethorphan is excreted unchanged in urine. For dextromethorphan and Dextrorphan, a GFR fraction of 1 was assumed. Dextrorphan-O-glucuronide is renally eliminated via passive glomerular filtration and active secretion to the urine, a GFR fraction > 1 was optimized and represents both processes [Section 2.3.4](#parameter-identification).
 
 The principal pathway of dextromethorphan metabolism is the CYP2D6-mediated O-demethylation, leading to the formation of dextrorphan. This pathway was implemented using Michaelis-Menten kinetics. Cytochrome P450 2D6 (CYP2D6) was implemented in accordance with literature, using the PK-Sim® expression database to define their relative expression in the different organs of the body [PK-Sim Ontogeny Database Version 7.3](#main-references). The CYP2D6, CYP3A4 and UGT2B15 expression profiles are based on high-sensitive real-time RT-PCR [Nishimura 2013](#main-references). The t1/2 for CYP3A4 was decreased from the default 37h to 36h and the reference concentration for UGT2B15 was increased from 1 µmol/L to 2.48 µmol/L for a better fit of the clinical data.
 
@@ -35,7 +35,7 @@ Because the CYP2D6 gene is prone to genetic alterations, dextromethorphan pharma
 | 2.00            |           | 242.5             | 100 |
 | 3.00            | UM        | 413.2             | 170 |
 
-In addition, fraction of bile that was continuously released was assumed 1 (`EHC continuous fraction`) for Dextromethorphan and its metabolites.
+In addition, fraction of bile that was continuously released was assumed 1 (`EHC continuous fraction`) for dextromethorphan and its metabolites.
 
 ### Automated Parameter Identification <a id="parameter-identification"></a>
 | Model Parameter               | 
