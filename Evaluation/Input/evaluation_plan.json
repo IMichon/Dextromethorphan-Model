@@ -667,16 +667,19 @@
             "Sections": [
                 {
                     "Id": 21,
+                    "Reference": "modeling-strategy",
                     "Content": "Content/Section2.1_Modeling_Strategy.md",
                     "Title": "Modeling strategy"
                 },
                 {
                     "Id": 22,
+                    "Reference": "methods-data",
                     "Content": "Content/Section2.2_Data.md",
                     "Title": "Data and parameters used"
                 },
                 {
                     "Id": 23,
+                    "Reference": "model-parameters-and-assumptions",
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
                     "Title": "Model Parameters and Assumptions"
                 }
@@ -694,6 +697,7 @@
                 },
                 {
                     "Id": 31,
+                    "Reference": "diagnostic-plots",
                     "Content": "Content/GOF_diagnostics.md",
                     "Title": "Dextromethorphan and its metabolites Diagnostics Plots"
                 },
@@ -701,6 +705,7 @@
                     "Id": 32,
                     "Reference": "ct-profiles",
                     "Content": "Content/Concentration_time_profiles.md",
+                    "Title": "Concentration-Time Profiles",
                     "Sections": [
                         {
                             "Id": 321,
@@ -723,6 +728,7 @@
         },
         {
             "Id": 5,
+            "Reference": "references",
             "Content": "Content/References.md",
             "Title": "References"
         }
