@@ -1,5 +1,5 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.4/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.5/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Dextromethorphan",
@@ -221,7 +221,7 @@
         "GOFMergedPlots": [
             {
                 "Title": "Goodness of fit plot for Dextromethorphan concentration in plasma",
-                "SectionId": 31,
+                "SectionReference": "diagnostics-plots",
                 "Artifacts": [
                     "Plot",
                     "GMFE",
@@ -462,7 +462,7 @@
             },
             {
                 "Title": "Goodness of fit plot for Dextromethorphan metabolites concentration in plasma",
-                "SectionId": 31,
+                "SectionReference": "diagnostics-plots",
                 "Artifacts": [
                     "Plot",
                     "GMFE",
@@ -698,24 +698,24 @@
                     "Content": "Content/Input_table.md"
                 },
                 {
-                    "Id": 31,
-                    "Reference": "diagnostic-plots",
+                    "Reference": "diagnostics-plots",
                     "Content": "Content/GOF_diagnostics.md",
                     "Title": "Dextromethorphan and its metabolites Diagnostics Plots"
                 },
                 {
-                    "Id": 32,
                     "Reference": "ct-profiles",
                     "Content": "Content/Concentration_time_profiles.md",
                     "Title": "Concentration-Time Profiles",
                     "Sections": [
                         {
                             "Id": 321,
+                            "Reference": "model-building",
                             "Title": "Model Building",
                             "Content": "Content/Concentration_time_profiles_building.md"
                         },
                         {
                             "Id": 322,
+                            "Reference": "model-verification",
                             "Title": "Model Verification",
                             "Content": "Content/Concentration_time_profiles_verification.md"
                         }
