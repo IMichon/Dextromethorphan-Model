@@ -75,147 +75,147 @@
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Duedahl2005_EM_0.5mgkg_DexBase",
-                "SectionId": 321
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Schadel1995_EM_30mg_DexHBr",
-                "SectionId": 321
+                "SectionReference": "model-building"
             },
              {
                 "Project": "Dextromethorphan",
                 "Simulation": "Schadel1995_PM_30mg_DexHBr",
-                "SectionId": 321
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Tennezé1999_EM_80mg_DexHBr",
-                "SectionId": 321
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "AntecipBioventures_EM_60mg_DexHBr_QD",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Armani2017_EM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Dumond2010_EM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Edwards2017_EM,_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Ermer2015_EM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Feld2013_EM_60mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
              {
                 "Project": "Dextromethorphan",
                 "Simulation": "Kakuda2014_EM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
              {
                 "Project": "Dextromethorphan",
                 "Simulation": "Khalilieh2018_EM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
              {
                 "Project": "Dextromethorphan",
                 "Simulation": "Nakashima2007_EM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
              {
                 "Project": "Dextromethorphan",
                 "Simulation": "Nyunt2008_EM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Sager2014_EM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Stage2018_EM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Qiu2016_IM_15mg_DexHBR_AS=0.5",
-                "SectionId": 321
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=1.25",
-                "SectionId": 321
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Qiu2016_NM_15mg_DexHBr_AS=2",
-                "SectionId": 321
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
-                "SectionId": 321
+                "SectionReference": "model-building"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Capon1996_EM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Capon1996_PM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Gazzaz2018_NM_30mg_DexHBr_AS=1.25",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Gorski2004_EM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Gorski2004_PM_30mg_DexHBr",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Storelli2018_IM_5mg_DexBase",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Storelli2018_NM_5mg_DexBase_AS=2",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Yamazaki2017_IM_30mg_DexHBr_AS=0.5",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             },
             {
                 "Project": "Dextromethorphan",
                 "Simulation": "Yamazaki2017_NM_30mg_DexHBr_AS=2",
-                "SectionId": 322
+                "SectionReference": "model-verification"
             }
         ],
         "GOFMergedPlots": [
@@ -656,31 +656,26 @@
     ],
         "Sections": [
         {
-            "Id": 1,
             "Reference": "introduction",
             "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
-            "Id": 2,
             "Title": "Methods",
             "Reference": "methods",
             "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Id": 21,
                     "Reference": "modeling-strategy",
                     "Content": "Content/Section2.1_Modeling_Strategy.md",
                     "Title": "Modeling strategy"
                 },
                 {
-                    "Id": 22,
                     "Reference": "methods-data",
                     "Content": "Content/Section2.2_Data.md",
                     "Title": "Data and parameters used"
                 },
                 {
-                    "Id": 23,
                     "Reference": "model-parameters-and-assumptions",
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
                     "Title": "Model Parameters and Assumptions"
@@ -688,7 +683,7 @@
             ]
         },
          {
-            "Id": 3,
+            "Reference": "results",
             "Content": "Content/Section3_Results_and_Discussion.md",
             "Title": "Results and Discussion",
             "Sections": [
@@ -708,13 +703,11 @@
                     "Title": "Concentration-Time Profiles",
                     "Sections": [
                         {
-                            "Id": 321,
                             "Reference": "model-building",
                             "Title": "Model Building",
                             "Content": "Content/Concentration_time_profiles_building.md"
                         },
                         {
-                            "Id": 322,
                             "Reference": "model-verification",
                             "Title": "Model Verification",
                             "Content": "Content/Concentration_time_profiles_verification.md"
@@ -724,12 +717,11 @@
             ]
         },
         {
-            "Id": 4,
+            "Reference": "conclusion",
             "Content": "Content/Section4_Conclusion.md",
             "Title": "Conclusion"
         },
         {
-            "Id": 5,
             "Reference": "references",
             "Content": "Content/References.md",
             "Title": "References"
