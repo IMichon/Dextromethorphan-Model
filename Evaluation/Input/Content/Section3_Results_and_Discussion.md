@@ -1,4 +1,4 @@
-The PBPK model for Dextromethorphan, dextrorphan and dextrorphan-O-glucuronide was developed and verified with clinical pharmacokinetic data.
+The PBPK model for Dextromethorphan, dextrorphan and dextrorphan O-glucuronide was developed and verified with clinical pharmacokinetic data.
 
 The PBPK model for dextromethorphan was developed and verified with clinical pharmacokinetic data. The model was built and evaluated covering data from several studies including in particular intravenous (0.5 mg/kg 30 min infusion) and
 oral administrations (dose range 5 to 80 mg).
