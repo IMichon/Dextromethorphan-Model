@@ -8655,7 +8655,7 @@
               }
             }
           ],
-          "Name": "Gorski 2004 EM, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
+          "Name": "Gorski 2004 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=11",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -8673,7 +8673,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "Title": "Gorski 2004 EM, 30 mg dextromethorphan hydromide (capsule/solution), n=11",
+          "Title": "Gorski 2004 EM, 30 mg dextromethorphan hydrobromide (capsule/solution), n=11",
           "OriginText": "Dextromethorphan-model\nGorski2004_EM_30mg_DexHBr\n2025-10-14 11:23"
         }
       ]
@@ -9497,20 +9497,20 @@
             "MolWeight": 271.4
           },
           "Values": [
-            0.000373709656,
-            0.000538852939,
-            0.0008234429,
-            0.00140945474,
-            0.00189605111,
-            0.00247037946,
-            0.00270435587,
-            0.0020308434,
-            0.0012315088,
-            0.0008338632,
-            0.000610063667
+            0.373709649,
+            0.538853,
+            0.8234429,
+            1.40945482,
+            1.896051,
+            2.47037935,
+            2.704356,
+            2.0308435,
+            1.23150873,
+            0.8338632,
+            0.6100637
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -11419,21 +11419,21 @@
             "MolWeight": 433.5
           },
           "Values": [
-            0.003534589,
-            0.0281360913,
-            0.0752639,
-            0.1201725,
-            0.227123037,
-            0.3011835,
-            0.355311871,
-            0.365278035,
-            0.302397519,
-            0.146919623,
-            0.09562649,
-            0.0359153822
+            3.534589,
+            28.1360912,
+            75.26391,
+            120.1725,
+            227.123032,
+            301.1835,
+            355.311859,
+            365.278,
+            302.397522,
+            146.919617,
+            95.62649,
+            35.9153824
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
