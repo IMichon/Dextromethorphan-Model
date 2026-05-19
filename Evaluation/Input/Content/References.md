@@ -1,4 +1,6 @@
 
+**Achour 2014** Achour B, Barber J, Rostami-Hodjegan A. Expression of hepatic drug-metabolizing cytochrome p450 enzymes and their intercorrelations: a meta-analysis. Drug Metab Dispos. 2014 Aug;42(8):1349-56. doi: 10.1124/dmd.114.058834. 
+
 **Armani 2017** Armani S, Ting L, Sauter N, et al. Drug Interaction Potential of Osilodrostat (LCI699) Based on Its Effect on the Pharmacokinetics of Probe Drugs of Cytochrome P450 Enzymes in Healthy Adults. Clin Drug Investig. 2017;37(5):465-472. doi:10.1007/s40261-017-0497-0
 
 **Benet 2011** Benet LZ, Broccatelli F, Oprea TI. BDDCS applied to over 900 drugs. AAPS J. 2011;13(4):519-547. doi:10.1208/s12248-011-9290-9
@@ -11,7 +13,7 @@
 
 **Capon 1996** Capon DA, Bochner F, Kerry N, Mikus G, Danz C, Somogyi AA. The influence of CYP2D6 polymorphism and quinidine on the disposition and antitussive effect of dextromethorphan in humans. Clin Pharmacol Ther. 1996;60(3):295-307. doi:10.1016/S0009-9236(96)90056-9
 
-**Duedahl 2004** Duedahl TH, Dirks J, Petersen KB, Romsing J, Larsen NE, Dahl JB. Intravenous dextromethorphan to human volunteers: relationship between pharmacokinetics and anti-hyperalgesic effect. Pain. 2005;113(3):360-368. doi:10.1016/j.pain.2004.11.015
+**Duedahl 2005** Duedahl TH, Dirks J, Petersen KB, Romsing J, Larsen NE, Dahl JB. Intravenous dextromethorphan to human volunteers: relationship between pharmacokinetics and anti-hyperalgesic effect. Pain. 2005;113(3):360-368. doi:10.1016/j.pain.2004.11.015
 
 **Dumond 2010** Dumond JB, Vourvahis M, Rezk NL, et al. A phenotype-genotype approach to predicting CYP450 and P-glycoprotein drug interactions with the mixed inhibitor/inducer tipranavir/ritonavir. Clin Pharmacol Ther. 2010;87(6):735-742. doi:10.1038/clpt.2009.253
 
@@ -45,7 +47,7 @@
 
 **Nakashima 2007** Nakashima D, Takama H, Ogasawara Y, et al. Effect of cinacalcet hydrochloride, a new calcimimetic agent, on the pharmacokinetics of dextromethorphan: in vitro and clinical studies. J Clin Pharmacol. 2007;47(10):1311-1319. doi:10.1177/0091270007304103
 
-**Nishimura 2013** Nishimura M, Yaguti H, Yoshitsugu H, Naito S, Satoh T. Tissue distribution of mRNA expression of human cytochrome P450 isoforms assessed by high-sensitivity real-time reverse transcription PCR. Yakugaku Zasshi. 2003;123(5):369-375. doi:10.1248/yakushi.123.369
+**Nishimura 2003** Nishimura M, Yaguti H, Yoshitsugu H, Naito S, Satoh T. Tissue distribution of mRNA expression of human cytochrome P450 isoforms assessed by high-sensitivity real-time reverse transcription PCR. Yakugaku Zasshi. 2003;123(5):369-375. doi:10.1248/yakushi.123.369
 
 **Nyunt 2008** Nyunt MM, Becker S, MacFarland RT, et al. Pharmacokinetic effect of AMD070, an Oral CXCR4 antagonist, on CYP3A4 and CYP2D6 substrates midazolam and dextromethorphan in healthy volunteers. J Acquir Immune Defic Syndr. 2008;47(5):559-565. doi:10.1097/QAI.0b013e3181627566
 
@@ -56,6 +58,8 @@
 **Qiu 2016** Qiu F, Liu S, Miao P, et al. Effects of the Chinese herbal formula “Zuojin Pill” on the pharmacokinetics of dextromethorphan in healthy Chinese volunteers with CYP2D6*10 genotype. Eur J Clin Pharmacol. 2016;72(6):689-695. doi:10.1007/s00228-016-2048-7
 
 **Rüdesheim 2020** Rüdesheim S, Wojtyniak JG, Selzer D, et al. Physiologically Based Pharmacokinetic Modeling of Metoprolol Enantiomers and α-Hydroxymetoprolol to Describe CYP2D6 Drug-Gene Interactions. Pharmaceutics. 2020;12(12). doi:10.3390/pharmaceutics12121200
+
+**Rüdesheim 2022** Rüdesheim S, Loer HLH, Feick D, et al. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther. 2025;117(6):1718-1731. doi:10.1002/cpt.3604
 
 **Rüdesheim 2025** Rüdesheim S, Loer HLH, Feick D, et al. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther. 2025;117(6):1718-1731. doi:10.1002/cpt.3604
 
@@ -73,9 +77,9 @@
 
 **Storelli 2018** Storelli F, Matthey A, Lenglet S, Thomas A, Desmeules J, Daali Y. Impact of CYP2D6 Functional Allelic Variations on Phenoconversion and Drug-Drug Interactions. Clin Pharmacol Ther. 2018;104(1):148-157. doi:10.1002/cpt.889
 
-**Tennezé 1999** Tennezé L, Verstuyft C, Becquemont L, Poirier JM, Wilkinson GR, Funck-Brentano C. Assessment of CYP2D6 and CYP2C19 activity in vivo in humans: a cocktail study with dextromethorphan and chloroguanide alone and in combination. Clin Pharmacol Ther. 1999;66(6):582-588. doi:10.1053/cp.1999.v66.103401001
+**Taylor 2016** Taylor CP, Traynelis SF, Siffert J, Pope LE, Matsumoto RR. Pharmacology of dextromethorphan: Relevance to dextromethorphan/quinidine (Nuedexta®) clinical use. Pharmacol Ther. 2016 Aug;164:170-82. doi: 10.1016/j.pharmthera.2016.04.010. 
 
-**Thelen 2011** Thelen K, Coboeken K, Willmann S, Burghaus R, Dressman JB, Lippert J. Evolution of a detailed physiological model to simulate the gastrointestinal transit and absorption process in humans, part 1: oral solutions. J Pharm Sci. 2011;100(12):5324-5345. doi:10.1002/jps.22726
+**Tennezé 1999** Tennezé L, Verstuyft C, Becquemont L, Poirier JM, Wilkinson GR, Funck-Brentano C. Assessment of CYP2D6 and CYP2C19 activity in vivo in humans: a cocktail study with dextromethorphan and chloroguanide alone and in combination. Clin Pharmacol Ther. 1999;66(6):582-588. doi:10.1053/cp.1999.v66.103401001
 
 **Watanabe 2018** Watanabe R, Esaki T, Kawashima H, et al. Predicting Fraction Unbound in Human Plasma from Chemical Structure: Improved Accuracy in the Low Value Ranges. Mol Pharm. 2018;15(11):5302-5311. doi:10.1021/acs.molpharmaceut.8b00785
 
