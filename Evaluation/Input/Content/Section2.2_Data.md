@@ -26,13 +26,12 @@ A literature search was performed to collect available information on physicoche
 | logP                          |          |   2.90     | [Kim 2019](#references)               | Partition coefficient between octanol and water |
 | fu                            | %        |   42.00    | [Watanabe 2018](#references)          | Fraction unbound in plasma                      |
 | UGT2B15 K<sub>m</sub> -> dxt-glu   | µmol/L | 184.8   | [Lutz 2012](#references)              | Michaelis Menten constant                       |
-| CYP2D6 K<sub>cat</sub> -> dxt (PM) | 1/min    |  0    | [Brown 2007](#references)| Catalytic rate constant|
 | CYP3A4 K<sub>m</sub>          | µmol/L   |   910.00   | [Lutz 2012](#references)              | Michaelis Menten constant                       |
 | CYP3A4 K<sub>cat</sub>        | 1/min    |  7.41      | [Lutz 2012](#references)| Catalytic rate constant|
 
-### In vitro / physico-chemical Data Dextrorphan-O-glucuronide <a id="invitro-and-physico-chemical-data-dextrorphan-o-glucuronide"></a>
+### In vitro / physico-chemical Data Dextrorphan O-glucuronide <a id="invitro-and-physico-chemical-data-dextrorphan O-glucuronide"></a>
 
-A literature search was performed to collect available information on physicochemical properties of dextrorphan-O-glucuronide. The obtained information from literature is summarized in the table below and is used for model building. 
+A literature search was performed to collect available information on physicochemical properties of dextrorphan O-glucuronide. The obtained information from literature is summarized in the table below and is used for model building. 
 
 | **Parameter**| **Unit** | **Value** | **Source** | **Description**|
 | :-----------------------------| -------- | ---------- | ------------------------------------------ | ----------------------------------------------- |
@@ -57,6 +56,9 @@ The following studies were used for model building (training data):
 | [Schadel 1995](#references) | CYP2D6 EM and PM Subjects with a single PO dose of 30 mg |
 | [Tennezé 1990](#references) | CYP2D6 EM subjects with a single PO dose of 80 mg | 
 
+EM: extensive
+metabolizer, PM: poor metabolizer.
+
 #### Base Model Verification <a id="base-model-verification"></a>
 
 The following studies were used for model verification:
@@ -76,6 +78,9 @@ The following studies were used for model verification:
 | [Sager 2014](#references)| CYP2D6 EM subjects with a single PO dose of 30 mg sd|
 | [Stage 2018](#references)| CYP2D6 EM subjects with a single PO dose of 30 mg sd|
 
+EM: extensive
+metabolizer.
+
 #### DGI Model Building <a id="dgi-model-building"></a>
 
 The following studies were used for model building (training data):
@@ -83,6 +88,9 @@ The following studies were used for model building (training data):
 | **Publication** | **Study description**|
 | :-------------------------- | :----------------------- |
 | [Qiu 2016](`#references`) | CYP2D6 NM and IM Subjects with a single PO dose of 15 mg |
+
+IM: intermediate
+metabolizer, NM: normal metabolizer.
 
 #### DGI Model Verification <a id="dgi-model-verification"></a>
 
@@ -96,3 +104,7 @@ The following studies were used for model verification:
 | [Yamazaki 2017](#references)| CYP2D6 NM and IM subjects with a single PO dose of 30 mg sd| 
 | [Storelli 2018](#references)| CYP2D6 EM subjects with a single PO dose of 5 mg sd| 
 | [Zawertailo 2010](#references)| CYP2D6 NM subjects with a single PO dose of 3 mg/kg sd|
+
+EM: extensive
+metabolizer, NM: normal metabolizer, PM:
+poor metabolizer, UM: ultrarapid metabolizer, sd: single-dose. 
