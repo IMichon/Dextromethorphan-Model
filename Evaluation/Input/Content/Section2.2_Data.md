@@ -57,7 +57,7 @@ The following studies were used for model building (training data):
 | [Tennezé 1990](#references) | CYP2D6 EM subjects with a single PO dose of 80 mg | 
 
 EM: extensive
-metabolizer, PM: poor metabolizer.
+metabolizer, PM: poor metabolizer, PO: oral administration.
 
 #### Base Model Verification <a id="base-model-verification"></a>
 
@@ -79,7 +79,7 @@ The following studies were used for model verification:
 | [Stage 2018](#references)| CYP2D6 EM subjects with a single PO dose of 30 mg sd|
 
 EM: extensive
-metabolizer.
+metabolizer, sd: single-dose, PO: oral administration.
 
 #### DGI Model Building <a id="dgi-model-building"></a>
 
@@ -90,7 +90,7 @@ The following studies were used for model building (training data):
 | [Qiu 2016](`#references`) | CYP2D6 NM and IM Subjects with a single PO dose of 15 mg |
 
 IM: intermediate
-metabolizer, NM: normal metabolizer.
+metabolizer, NM: normal metabolizer, PO: oral administration.
 
 #### DGI Model Verification <a id="dgi-model-verification"></a>
 
@@ -107,4 +107,4 @@ The following studies were used for model verification:
 
 EM: extensive
 metabolizer, NM: normal metabolizer, PM:
-poor metabolizer, UM: ultrarapid metabolizer, sd: single-dose. 
+poor metabolizer, UM: ultrarapid metabolizer, sd: single-dose, PO: oral administration.
