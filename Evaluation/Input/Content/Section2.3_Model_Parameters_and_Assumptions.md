@@ -20,20 +20,20 @@ Dextromethorphan-O-demethylation via CYP2D6 leads to the formation of the major 
 
 Alternatively, dextromethorphan is N-demethylated by CYP3A4, which was found to be the main pathway of dextromethorphan metabolism in CYP2D6 PMs. Depending on the CYP2D6 phenotype, up to 50% of orally administered dextromethorphan is excreted unchanged in urine. For dextromethorphan and Dextrorphan, a GFR fraction of 1 was assumed. Dextrorphan O-glucuronide is renally eliminated via passive glomerular filtration and active secretion to the urine, a GFR fraction > 1 was optimized and represents both processes [Section 2.3.4](#parameter-identification).
 
-The principal pathway of dextromethorphan metabolism is the CYP2D6-mediated O-demethylation, leading to the formation of dextrorphan. This pathway was implemented using Michaelis-Menten kinetics. Cytochrome P450 2D6 (CYP2D6) was implemented in accordance with literature, using the PK-Sim® expression database to define their relative expression in the different organs of the body [PK-Sim Ontogeny Database Version 7.3](#references). The CYP2D6, CYP3A4 and UGT2B15 expression profiles are based on high-sensitive real-time RT-PCR [Nishimura 2003](#references). The t<sub>1/2<sub> for CYP3A4 was decreased from the default 37 h to 36 h and the reference concentration for UGT2B15 was increased from 1 µmol/L to 2.48 µmol/L for a better fit of the clinical data.
+The principal pathway of dextromethorphan metabolism is the CYP2D6-mediated O-demethylation, leading to the formation of dextrorphan. This pathway was implemented using Michaelis-Menten kinetics. Cytochrome P450 2D6 (CYP2D6) was implemented in accordance with literature, using the PK-Sim® expression database to define their relative expression in the different organs of the body [PK-Sim Ontogeny Database Version 7.3](`#references`). The CYP2D6, CYP3A4 and UGT2B15 expression profiles are based on high-sensitive real-time RT-PCR [Nishimura 2003](`#references`). The t<sub>1/2</sub> for CYP3A4 was decreased from the default 37 h to 36 h and the reference concentration for UGT2B15 was increased from 1 µmol/L to 2.48 µmol/L for a better fit of the clinical data.
 
 Because the CYP2D6 gene is prone to genetic alterations, dextromethorphan pharmacokinetics is subject to considerable drug-gene interaction (DGI) effects. For DGI modeling, the CYP2D6 Michaelis-Menten constant(K<sub>M</sub>) values for the dextromethorphan O-demethylation were kept constant over the whole range of modeled activity scores [Rüdesheim 2020](#references). CYP2D6 k<sub>cat</sub> values were optimized separately for each activity score. CYP2D6 poor metabolizers (PMs) (activity score = 0) were assumed to show no CYP2D6 activity (0%), whereas populations with two wildtype alleles (activity score = 2) were assumed to possess normal CYP2D6 activity (100%). Activity scores were assigned according to Caudle et al. 2017 [Caudle 2017](#references), see also table below. IM = intermediate metabolizers, NM = normal metabolizers and UM = ultra-rapid metabolizer.
 
 
 | Activity Score | Projected | k<sub>cat</sub> -> dxt (1/min)    | k<sub>cat</sub> percentage of Reference (AS = 2) (%)|
-| --------------- | ---------- | ---------------- |-------|
+| --------------- | --------- | ------------------ |-----|
 | 0.00            | PM        | 0.0                | 0   |
-| 0.25            |           | 5.3                | 2   |
+| 0.25            | IM        | 5.3                | 2   |
 | 0.50            | IM        | 32.91              | 14  |
-| 1.00            |           | 96.64              | 40  |      
-| 1.25            |           | 115.17             | 48  |
+| 1.00            | IM        | 96.64              | 40  |      
+| 1.25            | NM        | 115.17             | 48  |
 | 1.50            | NM        | 151.81             | 63  |
-| 2.00            |           | 242.45             | 100 |
+| 2.00            | NM        | 242.45             | 100 |
 | 3.00            | UM        | 413.19             | 170 |
 
 In addition, fraction of bile that was continuously released was assumed 1 (`EHC continuous fraction`) for dextromethorphan and its metabolites.

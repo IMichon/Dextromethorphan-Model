@@ -1,4 +1,4 @@
-Below you find the goodness-of-fit visual diagnostic plots for the PBPK model performance of all data presented in [Section 2.2.2](#clinical-data).
+Below you find the goodness-of-fit visual diagnostic plots for the PBPK model performance of all clinical data presented in [Section 2.2.](#clinical-data).
 
 The first plot shows observed versus simulated plasma concentration, the second weighted residuals versus time. 
 

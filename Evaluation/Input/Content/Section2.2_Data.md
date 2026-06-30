@@ -10,7 +10,7 @@ A literature search was performed to collect available information on physicoche
 | Solubility (pH)               | g/L      |   15.00    | [Benet 2011](#references)             | Aqueous Solubility Hydrobromide                 |
 | logP                          |          |   4.10     | [Spaggiari 2014](#references)        | Partition coefficient between octanol and water |
 | fu                            | %        |   35.00    | [Lutz 2012](#references)              | Fraction unbound in plasma                      |
-| CYP2D6 K<sub>m</sub> -> dxt   | µmol/L   |   4.65     | [Brown 2007](#references)| Michaelis Menten constant|
+| CYP2D6 K<sub>m</sub> -> dxt   | µmol/L   |   4.65     | [Brown 2007](#references) [Lutz 2012](#references)| Michaelis Menten constant|
 | CYP2D6 K<sub>cat</sub> -> dxt (PM) | 1/min |  0       | [Brown 2007](#references)              | Catalytic rate constant                        |
 | CYP3A4 K<sub>m</sub>          | µmol/L   |   176.80   | [Lutz 2012](#references)              | Michaelis Menten constant                       |
   
