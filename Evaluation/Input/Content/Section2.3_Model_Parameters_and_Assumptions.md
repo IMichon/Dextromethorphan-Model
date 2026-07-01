@@ -14,8 +14,8 @@ After testing the available organ-plasma partition coefficient and cell permeabi
 
 Dextromethorphan-O-demethylation via CYP2D6 leads to the formation of the major active metabolite dextrorphan. Dextrorphan subsequently undergoes rapid glucuronidation via uridine diphosphate-glucuronosyltransferases 2B (UGT2Bs), namely UGT2B15, or N-demethylation via CYP3A4. [Figure 1] (#Figure-1) shows the implemented metabolic pathways.
 
-**Figure 1: Implemented dextromethorphan metabolic pathways.**
-![Figure 1](images/Figure_1.PNG)
+**Figure 2-1: Implemented dextromethorphan metabolic pathways.**
+![Figure 2-1](images/Figure_2_1.PNG)
 <a id="figure-1"></a>
 
 Alternatively, dextromethorphan is N-demethylated by CYP3A4, which was found to be the main pathway of dextromethorphan metabolism in CYP2D6 PMs. Depending on the CYP2D6 phenotype, up to 50% of orally administered dextromethorphan is excreted unchanged in urine. For dextromethorphan and Dextrorphan, a GFR fraction of 1 was assumed. Dextrorphan O-glucuronide is renally eliminated via passive glomerular filtration and active secretion to the urine, a GFR fraction > 1 was optimized and represents both processes [Section 2.3.4](#parameter-identification).
