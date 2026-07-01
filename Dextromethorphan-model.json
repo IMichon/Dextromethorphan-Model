@@ -6253,7 +6253,7 @@
       "Name": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2",
       "Model": "4Comp",
       "ObservedData": [
-        "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+        "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2",
         "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan",
         "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total"
       ],
@@ -6298,7 +6298,7 @@
         {
           "Scaling": "Log",
           "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2"
+          "ObservedData": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2"
         },
         {
           "Scaling": "Log",
@@ -6498,8 +6498,8 @@
             },
             {
               "Name": "Zawertailo 2009 NM, dextromethorphan, 3 mg/kg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2-Dextromethorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
-              "X": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|[h]",
-              "Y": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|[ng/mL]",
+              "X": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|[h]",
+              "Y": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|[ng/mL]",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 4,
@@ -12234,7 +12234,7 @@
       }
     },
     {
-      "Name": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+      "Name": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2",
       "ExtendedProperties": [
         {
           "Name": "Molecule",
@@ -12264,7 +12264,7 @@
             {
               "Name": "[ng/mL](1)",
               "QuantityInfo": {
-                "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|[ng/mL](1)"
+                "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|[ng/mL](1)"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -12284,7 +12284,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|[ng/mL]"
+            "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|[ng/mL]"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -12306,7 +12306,7 @@
       "BaseGrid": {
         "Name": "[h]",
         "QuantityInfo": {
-          "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|[h]",
+          "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|[h]",
           "Type": "Time"
         },
         "DataInfo": {
@@ -13092,7 +13092,7 @@
         "AntecipBioventures_EM_60mg_DexHBr_BID",
         "Storelli2018_NM_5mg_DexBase_AS=2",
         "Storelli2018_IM_5mg_DexBase",
-        "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+        "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2",
         "Sager2014_EM_30mg_DexHBr",
         "Armani2017_EM_30mg_DexHBr",
         "Dumond2010_EM_30mg_DexHBr",
