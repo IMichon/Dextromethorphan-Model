@@ -5920,7 +5920,7 @@
       "Model": "4Comp",
       "ObservedData": [
         "AntecipBioventures_EM_60mg_DexHBr_BID-dextrorphan-total",
-        "AntecipBioventures_EM_60mg_DexHBr_QD"
+        "AntecipBioventures_EM_60mg_DexHBr_BID"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -6040,7 +6040,7 @@
           "Scaling": "Log",
           "Weight": 0.0,
           "Path": "AntecipBioventures_EM_60mg_DexHBr_BID|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "AntecipBioventures_EM_60mg_DexHBr_QD"
+          "ObservedData": "AntecipBioventures_EM_60mg_DexHBr_BID"
         },
         {
           "Scaling": "Log",
@@ -6216,8 +6216,8 @@
             },
             {
               "Name": "Antecip Bioventures EM, dextromethorphan, 60 mg dextromethorphan hydrobromide multiple dose (capsule/solution), n=10-Dextromethorphan-Peripheral Venous Blood-Plasma-Conc  ",
-              "X": "AntecipBioventures_EM_60mg_DexHBr_QD|Time  ",
-              "Y": "AntecipBioventures_EM_60mg_DexHBr_QD|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|Conc  ",
+              "X": "AntecipBioventures_EM_60mg_DexHBr_BID|Time  ",
+              "Y": "AntecipBioventures_EM_60mg_DexHBr_BID|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|Conc  ",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 10,
@@ -9576,20 +9576,20 @@
             "MolWeight": 271.4
           },
           "Values": [
-            0.00172034756,
-            0.00311096758,
-            0.00711662555,
-            0.0130603276,
-            0.0210330542,
-            0.0186823811,
-            0.018156657,
-            0.0182269663,
-            0.0198085718,
-            0.0180864222,
-            0.0219270159
+            1.72034752,
+            3.1109674,
+            7.11662531,
+            13.0603275,
+            21.0330544,
+            18.6823826,
+            18.1566563,
+            18.2269669,
+            19.8085728,
+            18.0864239,
+            21.9270172
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -11129,16 +11129,16 @@
             "MolWeight": 257.37
           },
           "Values": [
-            0.00130867574,
-            0.00100579963,
-            0.0008517719,
-            0.0007004794,
-            0.0004700893,
-            0.000359059166,
-            6.00665153E-05
+            1.30867577,
+            1.00579965,
+            0.851771951,
+            0.7004794,
+            0.4700893,
+            0.359059185,
+            0.0600665137
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -11780,7 +11780,7 @@
       }
     },
     {
-      "Name": "AntecipBioventures_EM_60mg_DexHBr_QD",
+      "Name": "AntecipBioventures_EM_60mg_DexHBr_BID",
       "ExtendedProperties": [
         {
           "Name": "Molecule",
@@ -11807,7 +11807,7 @@
         {
           "Name": "Conc  ",
           "QuantityInfo": {
-            "Path": "AntecipBioventures_EM_60mg_DexHBr_QD|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|Conc  "
+            "Path": "AntecipBioventures_EM_60mg_DexHBr_BID|ObservedData|Peripheral Venous Blood|Plasma|Dextromethorphan|Conc  "
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -11833,7 +11833,7 @@
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Path": "AntecipBioventures_EM_60mg_DexHBr_QD|Time  ",
+          "Path": "AntecipBioventures_EM_60mg_DexHBr_BID|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
@@ -12012,17 +12012,17 @@
             "MolWeight": 271.4
           },
           "Values": [
-            9.314079E-05,
-            0.00102310476,
-            0.000907581241,
-            0.0008209387,
-            0.0006505415,
-            0.0005870036,
-            0.000491696759,
-            0.000188447637
+            0.0931407958,
+            1.02310467,
+            0.9075812,
+            0.820938647,
+            0.6505415,
+            0.5870036,
+            0.491696745,
+            0.188447639
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -13089,7 +13089,7 @@
         "Nyunt2008_EM_30mg_DexHBr",
         "Stage2018_EM_30mg_DexHBr",
         "Kakuda2014_EM_30mg_DexHBr",
-        "AntecipBioventures_EM_60mg_DexHBr_QD",
+        "AntecipBioventures_EM_60mg_DexHBr_BID",
         "Storelli2018_NM_5mg_DexBase_AS=2",
         "Storelli2018_IM_5mg_DexBase",
         "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
