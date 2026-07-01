@@ -21,7 +21,6 @@ A literature search was performed to collect available information on physicoche
 | **Parameter**| **Unit** | **Value** | **Source** | **Description**|
 | :-----------------------------| -------- | ---------- | ------------------------------------------ | ----------------------------------------------- |
 | MW                            | g/mol    |   257.37   | [HMDB-a](#references),[Wishart 2018](#references)           | Molecular weight                                |
-| logP|          |  1.38    | [Spaggiari 2014](#references)         | Partition coefficient between octanol and water|
 | pK<sub>a</sub> strongest acidic|         |   10.10    | [Spaggiari 2014](#references)         | Acid dissociation constant                      |
 | logP                          |          |   2.90     | [Kim 2019](#references)               | Partition coefficient between octanol and water |
 | fu                            | %        |   42.00    | [Watanabe 2018](#references)          | Fraction unbound in plasma                      |
@@ -36,7 +35,7 @@ A literature search was performed to collect available information on physicoche
 | **Parameter**| **Unit** | **Value** | **Source** | **Description**|
 | :-----------------------------| -------- | ---------- | ------------------------------------------ | ----------------------------------------------- |
 | MW                            | g/mol    |   433.5    | [Wishart 2018](#references)| Molecular weight|
-| logP                          |          |   1.38     | [HMDB-b](#references), [Wishart 2018](#references) | Partition coefficient between octanol and water |
+| logP                          |          |   0.29     | [HMDB-b](#references), [Wishart 2018](#references) | Partition coefficient between octanol and water |
 | pK<sub>a</sub> strongest basic|          |   9.82     | [Wishart 2018](#references)           | Acid dissociation constant                      |
 | pK<sub>a</sub> strongest acidic|         |   2.85     | [Wishart 2018](#references)           | Acid dissociation constant                      |
 | Solubility                    | g/L      |   1.20     | [Wishart 2018](#references)           | Solubility|
@@ -73,7 +72,7 @@ The following studies were used for model verification:
 | [Ermer 2015](#references)| CYP2D6 EM subjects with a single PO dose of 30 mg | 
 | [Kakuda 2014](#references)| CYP2D6 EM subjects with a single PO dose of 30 mg |
 | [Khalilieh 2018](#references)| CYP2D6 EM subjects with a single PO dose of 30 mg |
-| [Nakashima 2007](#references)| CYP2D6 EM subjects with a single PO dose of 50 mg |
+| [Nakashima 2007](#references)| CYP2D6 EM subjects with a single PO dose of 30 mg |
 | [Nyunt 2008](#references)| CYP2D6 EM subjects with a single PO dose of 30 mg |
 | [Sager 2014](#references)| CYP2D6 EM subjects with a single PO dose of 30 mg |
 | [Stage 2018](#references)| CYP2D6 EM subjects with a single PO dose of 30 mg |

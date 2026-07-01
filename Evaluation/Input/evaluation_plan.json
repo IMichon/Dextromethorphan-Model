@@ -169,7 +169,7 @@
             },
             {
                 "Project": "Dextromethorphan",
-                "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                "Simulation": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2",
                 "SectionReference": "model-building"
             },
             {
@@ -382,9 +382,9 @@
                             },
                             {
                                 "Project": "Dextromethorphan",
-                                "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "Simulation": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2",
                                 "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "ObservedData": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2",
                                 "Color": "#FF0000"
                             }
                              ]
@@ -492,9 +492,9 @@
                         "OutputMappings": [
                             {
                                 "Project": "Dextromethorphan",
-                                "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "Simulation": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2",
                                 "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "ObservedData": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2",
                                 "Color": "#FF0000"
                             }
                              ]
@@ -598,9 +598,9 @@
                         "OutputMappings": [
                             {
                                 "Project": "Dextromethorphan",
-                                "Simulation": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+                                "Simulation": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2",
                                 "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total",
+                                "ObservedData": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total",
                                 "Color": "#FF0000"
                             }
                            ]

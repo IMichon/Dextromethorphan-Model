@@ -1068,7 +1068,7 @@
       ]
     },
     {
-      "Name": "Zawertailo 2009 (188) NM, n=6 clean",
+      "Name": "Zawertailo 2010 (188) NM, n=6 clean",
       "Seed": 404165546,
       "OriginData": {
         "CalculationMethods": [
@@ -6250,12 +6250,12 @@
       ]
     },
     {
-      "Name": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
+      "Name": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2",
       "Model": "4Comp",
       "ObservedData": [
         "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2",
-        "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan",
-        "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total"
+        "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan",
+        "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -6297,21 +6297,21 @@
       "OutputMappings": [
         {
           "Scaling": "Log",
-          "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+          "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
           "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2"
         },
         {
           "Scaling": "Log",
-          "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan"
+          "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan"
         },
         {
           "Scaling": "Log",
-          "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total"
+          "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total"
         }
       ],
-      "Individual": "Zawertailo 2009 (188) NM, n=6 clean",
+      "Individual": "Zawertailo 2010 (188) NM, n=6 clean",
       "Compounds": [
         {
           "Name": "Dextromethorphan",
@@ -6450,7 +6450,7 @@
             {
               "Name": "Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "Y": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 1
@@ -6459,7 +6459,7 @@
             {
               "Name": "Dextrorphan-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
+              "Y": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextrorphan|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2
@@ -6468,7 +6468,7 @@
             {
               "Name": "Dextrorphan-Peripheral Venous Blood-Dextrorphan-total Plasma (Peripheral Venous Blood)-Concentration",
               "X": "Time",
-              "Y": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+              "Y": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#008000",
                 "LegendIndex": 3
@@ -6476,8 +6476,8 @@
             },
             {
               "Name": "Zawertailo 2009 NM, dextrorphan total, 3 mg/kg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2-Dextrorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
-              "X": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total|[h]",
-              "Y": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]",
+              "X": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total|[h]",
+              "Y": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]",
               "CurveOptions": {
                 "Color": "#008000",
                 "LegendIndex": 6,
@@ -6487,8 +6487,8 @@
             },
             {
               "Name": "Zawertailo 2009 NM, dextrorphan, 3 mg/kg dextrorphan hydrobromide (capsule/solution), n=6, AS=2-Dextrorphan-Peripheral Venous Blood-Plasma-[ng/mL]",
-              "X": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan|[h]",
-              "Y": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]",
+              "X": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan|[h]",
+              "Y": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 5,
@@ -6508,7 +6508,7 @@
               }
             }
           ],
-          "Name": "Zawertailo 2009 NM, 3 mg/kg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+          "Name": "Zawertailo 2010 NM, 3 mg/kg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -6526,7 +6526,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "Title": "Zawertailo 2009 NM, 3 mg/kg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
+          "Title": "Zawertailo 2010 NM, 3 mg/kg dextromethorphan hydrobromide (capsule/solution), n=6, AS=2",
           "OriginText": "Dextromethorphan-model\nZawertailo2009_NM_3 mg/kg_DexHBr_AS=2\n2025-10-14 11:21"
         }
       ]
@@ -10226,16 +10226,16 @@
             "MolWeight": 271.4
           },
           "Values": [
-            0.00294338,
-            0.00336027215,
-            0.00380925951,
-            0.00373690273,
-            0.00309492438,
-            0.002733666,
-            0.00169834669
+            2.94337988,
+            3.36027217,
+            3.80925965,
+            3.73690271,
+            3.09492421,
+            2.733666,
+            1.69834673
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -10845,17 +10845,17 @@
             "MolWeight": 257.37
           },
           "Values": [
-            0.00242982875,
-            0.00319569139,
-            0.003390774,
-            0.00361324986,
-            0.003326209,
-            0.00202495046,
-            0.00125900388,
-            0.0005236199
+            2.429829,
+            3.19569159,
+            3.39077377,
+            3.61325,
+            3.326209,
+            2.0249505,
+            1.25900388,
+            0.5236199
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -12050,7 +12050,7 @@
       }
     },
     {
-      "Name": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total",
+      "Name": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total",
       "ExtendedProperties": [
         {
           "Name": "Molecule",
@@ -12080,7 +12080,7 @@
             {
               "Name": "[ng/mL](1)",
               "QuantityInfo": {
-                "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL](1)"
+                "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL](1)"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -12100,7 +12100,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]"
+            "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -12108,21 +12108,21 @@
             "MolWeight": 257.37
           },
           "Values": [
-            1.026143,
-            2.37093115,
-            2.3243916,
-            2.05524826,
-            1.63535309,
-            1.2247386
+            1026.143,
+            2370.93115,
+            2324.3916,
+            2055.248,
+            1635.35315,
+            1224.73865
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
         "Name": "[h]",
         "QuantityInfo": {
-          "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total|[h]",
+          "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total|[h]",
           "Type": "Time"
         },
         "DataInfo": {
@@ -12142,7 +12142,7 @@
       }
     },
     {
-      "Name": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan",
+      "Name": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan",
       "ExtendedProperties": [
         {
           "Name": "Molecule",
@@ -12172,7 +12172,7 @@
             {
               "Name": "[ng/mL](1)",
               "QuantityInfo": {
-                "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL](1)"
+                "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL](1)"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
@@ -12192,7 +12192,7 @@
             }
           ],
           "QuantityInfo": {
-            "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]"
+            "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan|[ng/mL]"
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -12200,21 +12200,21 @@
             "MolWeight": 257.37
           },
           "Values": [
-            0.05304662,
-            0.0677733049,
-            0.0587277524,
-            0.0401154421,
-            0.0320633575,
-            0.02674386
+            53.0466232,
+            67.77331,
+            58.7277527,
+            40.11544,
+            32.06336,
+            26.74386
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
         "Name": "[h]",
         "QuantityInfo": {
-          "Path": "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan|[h]",
+          "Path": "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan|[h]",
           "Type": "Time"
         },
         "DataInfo": {
@@ -12292,15 +12292,15 @@
             "MolWeight": 271.4
           },
           "Values": [
-            0.0174911954,
-            0.0270437188,
-            0.0245651361,
-            0.0218184,
-            0.01873734,
-            0.0141909774
+            17.4911957,
+            27.0437183,
+            24.565136,
+            21.8184,
+            18.73734,
+            14.1909771
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -13107,7 +13107,7 @@
         "Nakashima2007_EM_30mg_DexHBr_dextrorphan",
         "Storelli2018_IM_5mg_DexBase-dextrorphan",
         "Storelli2018_NM_5mg_DexBase_AS=2-dextrorphan",
-        "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan",
+        "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan",
         "Sager2014_EM_30mg_DexHBr-dextrorphan",
         "Ermer2015_EM_30mg_DexHBr_dextrorphan"
       ]
@@ -13125,7 +13125,7 @@
         "Feld2013_EM_60mg_DexHBr-dextrorphan-total",
         "Tennezé1999_EM_80mg_DexHBr-dextrorphan-total",
         "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total",
-        "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total"
+        "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total"
       ]
     }
   ],
@@ -13185,7 +13185,7 @@
             "Qiu2016_NM_15mg_DexHBr_AS=2",
             "Qiu2016_IM_15mg_DexHBR_AS=0.5",
             "Qiu2016_NM_15mg_DexHBr_AS=1.25",
-            "Zawertailo2009_NM_3 mg/kg_DexHBr_AS=2"
+            "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2"
           ]
         }
       ]

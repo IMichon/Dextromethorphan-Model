@@ -59,7 +59,9 @@
 
 **Rüdesheim 2020** Rüdesheim S, Wojtyniak JG, Selzer D, et al. Physiologically Based Pharmacokinetic Modeling of Metoprolol Enantiomers and α-Hydroxymetoprolol to Describe CYP2D6 Drug-Gene Interactions. Pharmaceutics. 2020;12(12). doi:10.3390/pharmaceutics12121200
 
-**Rüdesheim 2022** Rüdesheim S, Loer HLH, Feick D, et al. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther. 2025;117(6):1718-1731. doi:10.1002/cpt.3604
+**Rüdesheim 2022A** Rüdesheim, Simeon, et al. Physiologically‐based pharmacokinetic modeling of dextromethorphan to investigate interindividual variability within CYP2D6 activity score groups. CPT: Pharmacometrics & Systems Pharmacology 2022;11(4):494-511.
+
+**Rüdesheim 2022B** Rüdesheim S, Loer HLH, Feick D, et al. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther. 2025;117(6):1718-1731. doi:10.1002/cpt.3604
 
 **Rüdesheim 2025** Rüdesheim S, Loer HLH, Feick D, et al. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther. 2025;117(6):1718-1731. doi:10.1002/cpt.3604
 
