@@ -5916,10 +5916,10 @@
       ]
     },
     {
-      "Name": "AntecipBioventures_EM_60mg_DexHBr_QD",
+      "Name": "AntecipBioventures_EM_60mg_DexHBr_BID",
       "Model": "4Comp",
       "ObservedData": [
-        "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total",
+        "AntecipBioventures_EM_60mg_DexHBr_BID-dextrorphan-total",
         "AntecipBioventures_EM_60mg_DexHBr_QD"
       ],
       "Solver": {},
@@ -6039,14 +6039,14 @@
         {
           "Scaling": "Log",
           "Weight": 0.0,
-          "Path": "AntecipBioventures_EM_60mg_DexHBr_QD|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+          "Path": "AntecipBioventures_EM_60mg_DexHBr_BID|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
           "ObservedData": "AntecipBioventures_EM_60mg_DexHBr_QD"
         },
         {
           "Scaling": "Log",
           "Weight": 0.0,
-          "Path": "AntecipBioventures_EM_60mg_DexHBr_QD|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
-          "ObservedData": "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total"
+          "Path": "AntecipBioventures_EM_60mg_DexHBr_BID|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+          "ObservedData": "AntecipBioventures_EM_60mg_DexHBr_BID-dextrorphan-total"
         }
       ],
       "Individual": "Antecip Bioventures EM, n=10 clean",
@@ -6186,9 +6186,9 @@
           ],
           "Curves": [
             {
-              "Name": "AntecipBioventures_EM_60mg_DexHBr_QD-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "AntecipBioventures_EM_60mg_DexHBr_BID-Dextromethorphan-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "AntecipBioventures_EM_60mg_DexHBr_QD|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
+              "Y": "AntecipBioventures_EM_60mg_DexHBr_BID|Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 1
@@ -6196,8 +6196,8 @@
             },
             {
               "Name": "Antecip Bioventures EM, dextrorphan total, 60 mg dextromethorphan hydrobromide multiple dose (capsule/solution), n=10-Dextrorphan-total-Peripheral Venous Blood-Plasma-Conc  ",
-              "X": "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total|Time  ",
-              "Y": "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan-total|Conc  ",
+              "X": "AntecipBioventures_EM_60mg_DexHBr_BID-dextrorphan-total|Time  ",
+              "Y": "AntecipBioventures_EM_60mg_DexHBr_BID-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan-total|Conc  ",
               "CurveOptions": {
                 "Color": "#008000",
                 "LegendIndex": 9,
@@ -6208,7 +6208,7 @@
             {
               "Name": "Dextrorphan-Peripheral Venous Blood-Dextrorphan-total Plasma (Peripheral Venous Blood)-Concentration",
               "X": "Time",
-              "Y": "AntecipBioventures_EM_60mg_DexHBr_QD|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
+              "Y": "AntecipBioventures_EM_60mg_DexHBr_BID|Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#008000",
                 "LegendIndex": 8
@@ -11703,7 +11703,7 @@
       }
     },
     {
-      "Name": "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total",
+      "Name": "AntecipBioventures_EM_60mg_DexHBr_BID-dextrorphan-total",
       "ExtendedProperties": [
         {
           "Name": "Molecule",
@@ -11730,7 +11730,7 @@
         {
           "Name": "Conc  ",
           "QuantityInfo": {
-            "Path": "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan-total|Conc  "
+            "Path": "AntecipBioventures_EM_60mg_DexHBr_BID-dextrorphan-total|ObservedData|Peripheral Venous Blood|Plasma|Dextrorphan-total|Conc  "
           },
           "DataInfo": {
             "Origin": "Observation",
@@ -11738,25 +11738,25 @@
             "MolWeight": 433.5
           },
           "Values": [
-            0.1324,
-            0.6889,
-            0.9591,
-            0.7781,
-            0.594899952,
-            0.3247,
-            0.1896,
-            0.07479999,
-            0.0122,
-            0.000100000005
+            132.400009,
+            688.9,
+            959.100037,
+            778.1,
+            594.899963,
+            324.7,
+            189.6,
+            74.7999954,
+            12.2,
+            0.1
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
         "Name": "Time  ",
         "QuantityInfo": {
-          "Path": "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total|Time  ",
+          "Path": "AntecipBioventures_EM_60mg_DexHBr_BID-dextrorphan-total|Time  ",
           "Type": "Time"
         },
         "DataInfo": {
@@ -11815,19 +11815,19 @@
             "MolWeight": 271.4
           },
           "Values": [
-            0.0012,
-            0.0024,
-            0.00360000017,
-            0.00360000017,
-            0.0033,
-            0.0025,
-            0.00189999992,
-            0.0011,
-            0.000400000019,
-            0.000100000005
+            1.2,
+            2.4,
+            3.60000014,
+            3.60000014,
+            3.3,
+            2.5,
+            1.9,
+            1.1,
+            0.4,
+            0.1
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "ng/ml"
         }
       ],
       "BaseGrid": {
@@ -13124,7 +13124,7 @@
         "Gorski2004_EM_30mg_DexHBr-dextrorphan-total",
         "Feld2013_EM_60mg_DexHBr-dextrorphan-total",
         "Tennezé1999_EM_80mg_DexHBr-dextrorphan-total",
-        "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total",
+        "AntecipBioventures_EM_60mg_DexHBr_BID-dextrorphan-total",
         "Zawertailo2010_NM_3 mg/kg_DexHBr_AS=2-dextrorphan-total"
       ]
     }
@@ -13157,7 +13157,7 @@
           "Classifiables": [
             "Edwards2017_EM,_30mg_DexHBr",
             "Nakashima2007_EM_30mg_DexHBr",
-            "AntecipBioventures_EM_60mg_DexHBr_QD",
+            "AntecipBioventures_EM_60mg_DexHBr_BID",
             "Feld2013_EM_60mg_DexHBr"
           ]
         },

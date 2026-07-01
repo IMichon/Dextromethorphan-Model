@@ -94,7 +94,7 @@
             },
             {
                 "Project": "Dextromethorphan",
-                "Simulation": "AntecipBioventures_EM_60mg_DexHBr_QD",
+                "Simulation": "AntecipBioventures_EM_60mg_DexHBr_BID",
                 "SectionReference": "model-verification"
             },
             {
@@ -271,9 +271,9 @@
                         "OutputMappings": [
                             {
                                 "Project": "Dextromethorphan",
-                                "Simulation": "AntecipBioventures_EM_60mg_DexHBr_QD",
+                                "Simulation": "AntecipBioventures_EM_60mg_DexHBr_BID",
                                 "Output": "Organism|PeripheralVenousBlood|Dextromethorphan|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "AntecipBioventures_EM_60mg_DexHBr_QD",
+                                "ObservedData": "AntecipBioventures_EM_60mg_DexHBr_BID",
                                 "Color": "#FF0000"
                             },
                             {
@@ -558,9 +558,9 @@
                         "OutputMappings": [
                             {
                                 "Project": "Dextromethorphan",
-                                "Simulation": "AntecipBioventures_EM_60mg_DexHBr_QD",
+                                "Simulation": "AntecipBioventures_EM_60mg_DexHBr_BID",
                                 "Output": "Organism|PeripheralVenousBlood|Dextrorphan|Dextrorphan-total Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "AntecipBioventures_EM_60mg_DexHBr_QD-dextrorphan-total",
+                                "ObservedData": "AntecipBioventures_EM_60mg_DexHBr_BID-dextrorphan-total",
                                 "Color": "#FF0000"
                             },
                             {
