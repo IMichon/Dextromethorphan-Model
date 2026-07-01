@@ -53,7 +53,7 @@ The following studies were used for model building (training data):
 | :-------------------------- | :----------------------- |
 | [Duedahl 2005](#references) | CYP2D6 EM Subjects with an single IV infusion of 0.5 mg/kg for 30 min  |
 | [Schadel 1995](#references) | CYP2D6 EM and PM Subjects with a single PO dose of 30 mg |
-| [Tennezé 1990](#references) | CYP2D6 EM subjects with a single PO dose of 80 mg | 
+| [Tennezé 1999](#references) | CYP2D6 EM subjects with a single PO dose of 80 mg | 
 
 EM: extensive
 metabolizer, PM: poor metabolizer, PO: oral administration.
